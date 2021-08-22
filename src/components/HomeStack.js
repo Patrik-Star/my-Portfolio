@@ -18,15 +18,15 @@ var stackArray = [
                 'CLion',
                 'sublime'];
 
-var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
+// var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
 
-const getUniqueFromRange = (max) => {
-    return Math.floor(Math.random() * max);
-  };
+// const getUniqueFromRange = (max) => {
+//     return Math.floor(Math.random() * max);
+//   };
   
-  const getRandomItem = items => {
-    return items[getUniqueFromRange(items.length)];
-  };
+//   const getRandomItem = items => {
+//     return items[getUniqueFromRange(items.length)];
+//   };
 
 
 function randomNoRepeats() {
@@ -80,7 +80,7 @@ export default HomeStack;
 
 
 
-{/* <div className="bg-white rounded p-4">{chooser()}</div>
+/* <div className="bg-white rounded p-4">{chooser()}</div>
 <div className="bg-white rounded p-4">{chooser()}</div>
 <div className="bg-white rounded p-4">{chooser()}</div>
 <div className="bg-white rounded p-4">{chooser()}</div>
@@ -95,10 +95,10 @@ export default HomeStack;
 <div className="bg-white rounded p-4">{chooser()}</div>
 <div className="bg-white rounded p-4">{chooser()}</div>
 <div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div> */}
+<div className="bg-white rounded p-4">{chooser()}</div> */
 
 
-{/* <img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIconGrid"/>,
+/* <img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIconGrid"/>,
 <img src={process.env.PUBLIC_URL + '/logo512.png'} alt="React Logo" className="stackIconGrid"/>,
 <img src={process.env.PUBLIC_URL + '/pythonLogo.png'} alt=" Python Logo" className="stackIconGrid"/>,
-<img src={process.env.PUBLIC_URL + '/awsLogo.jpg'} alt="AWS Logo" className="stackIconGrid"/>, */}
+<img src={process.env.PUBLIC_URL + '/awsLogo.jpg'} alt="AWS Logo" className="stackIconGrid"/>, */
