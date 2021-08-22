@@ -4,32 +4,32 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
     return (
-        <header className="bg-red-600 ">
+        <header className="bg-c-black shadow-xl border-b-2 border-gray-700">
             <div className="container mx-auto flex justify-between ">
                 <nav className="flex">
                     <NavLink to="/" 
                     exact
                     activeClassName="text-white" 
-                    className="inline-flex items-center py-6 px-3 mr-4 text-red-200 hover:text-green-800 text-4xl font-bold cursive tracking-widest"> 
+                    className="inline-flex items-center py-6 px-3 mr-4 text-yellow-400 hover:text-yellow-300 text-4xl font-bold cursive tracking-widest"> 
                         Patrik
                     </NavLink>
                     <NavLink 
                     to="/post" 
-                    activeClassName="text-white bg-red-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">
+                    activeClassName="text-white bg-gray-600"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-400 hover:text-yellow-300">
                         Blog Post
                     </NavLink>
                     <NavLink 
                     to="/project" 
-                    activeClassName="text-white bg-red-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">
+                    activeClassName="text-white bg-gray-600"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-400 hover:text-yellow-300">
                         Project
                     </NavLink>
                     <NavLink 
                     to="/about" 
-                    activeClassName="text-white bg-red-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">
-                        About Me!
+                    activeClassName="text-white bg-gray-600"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-400 hover:text-yellow-300">
+                        My Story
                     </NavLink>
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">

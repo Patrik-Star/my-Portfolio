@@ -1,22 +1,21 @@
 import React from "react";
-import image from '../compsci_background.jpg';
+import HomeWhatIDo from "./HomeWhatIDo";
+
+import HomeHero from "./HomeHero";
+import HomeStack from "./HomeStack";
+import HomeAboutMe from "./HomeAboutMe";
 
 export default function Home(){
+    
     return (
-        <main>
-            <img src={image} alt="background" className="absolute object-cover w-full h-full"/>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute object-cover w-full h-full">
-                <path fill="#0099ff" fill-opacity="1" d="M0,288L21.8,256C43.6,224,87,160,131,154.7C174.5,149,218,203,262,202.7C305.5,203,349,149,393,117.3C436.4,85,480,75,524,96C567.3,117,611,171,655,208C698.2,245,742,267,785,250.7C829.1,235,873,181,916,149.3C960,117,1004,107,1047,112C1090.9,117,1135,139,1178,144C1221.8,149,1265,139,1309,149.3C1352.7,160,1396,192,1418,208L1440,224L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
-            </svg> */}
-            <section  className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="text-6xl text-red-500 font-bold cursive leading-none lg:leading-snug home-name">hey im Patrik</h1>
-            </section>
-
-            <div className="absolute w-screen text-center bg-white mx-auto">
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#0099ff" fill-opacity="1" d="M0,96L20,128C40,160,80,224,120,224C160,224,200,160,240,154.7C280,149,320,203,360,192C400,181,440,107,480,85.3C520,64,560,96,600,138.7C640,181,680,235,720,234.7C760,235,800,181,840,170.7C880,160,920,192,960,176C1000,160,1040,96,1080,96C1120,96,1160,160,1200,202.7C1240,245,1280,267,1320,266.7C1360,267,1400,245,1420,234.7L1440,224L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path>
-            </svg> */}
-            </div>
-        </main>
+        <div className="">
+            <HomeHero />
+            <HomeAboutMe />
+            <HomeWhatIDo />
+            <HomeStack />
+        </div>
     )
 }
+
+
+
