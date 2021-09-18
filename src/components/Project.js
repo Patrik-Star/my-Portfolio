@@ -14,6 +14,7 @@ export default function Project(){
             projectType,
             link,
             tags,
+            "projectImage": image.asset->url
         }`)
         .then((data) => setProjectData(data))
         .catch(console.error);

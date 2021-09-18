@@ -47,6 +47,14 @@ export default{
             options: {
                 layout: "tags",
             }
-        }
+        },
+        {
+            name: 'image',
+            title: 'Image',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+          }
     ]
 }

@@ -9,7 +9,11 @@ module.exports = {
         'c-dark-blue': '#016fb9ff',
         'c-light-blue': '#22aed1ff',
         'c-white': '#fefcfbff',
+        'c-light-black': '#4E4D60'
       },
+      margin:{
+        '1/2': '50%'
+      }
     },
   },
   variants: {
