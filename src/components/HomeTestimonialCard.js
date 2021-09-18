@@ -11,7 +11,7 @@ function HomeTestimonialCard(props) {
                 <p class="mt-2 text-gray-600 break-words">{props.body}</p>
             </div>
             <div class="static ">
-                <a href={props.link} target="_blank" rel="noreferrer noopener" class="text-xl font-medium text-c-light-blue absolute bottom-6 right-7 ">{props.name}</a> <br />
+                <a href={props.link} target="_blank" rel="noreferrer noopener" class="text-xl font-medium text-c-light-blue absolute bottom-6 right-7 hover:text-c-dark-blue">{props.name}</a> <br />
                 <h6 className="text-sm text-gray-400 absolute bottom-2 right-7 ">{props.jobPosition}</h6>
             </div>
             {/* <div className="flex justify-end">

@@ -17,7 +17,7 @@ const paragraphs = {
     But where this app was different than most other apps was that it used push notifications as a core function of the app and it was the one of the hardest parts in developing this iOS app.
     
     While learning iOS development I also learnt topics such as database management, mySQL and RESTful API's. This was due to me working closely with the backend developer who made the database and API before I started my internship. 
-    I got exposed to these topics as the iOS app I was developing was highly dependant on doing GET and POSTS to his RESTful API and to his database. 
+    I got exposed to these topics as the iOS app I was developing was highly dependant on doing GET and POSTS requests to his RESTful API and to his database. 
     `,
     uiDesign: `Iv always been facinated with UI design and User Experience. 
     I took a course at the University of Auckland, that I really enjoyed where I learnt useful knowledge such as colour theory, 
