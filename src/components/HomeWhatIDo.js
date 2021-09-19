@@ -12,18 +12,18 @@ import swiftLogo from '../images/swiftLogo.png';
 import postmanLogo from '../images/postmanLogo.png';
 
 const paragraphs = {
-    ios: `During my last year of university, I did an internship at Appworx where I was responsible in making an iPhone iOS app called Reach! 
-    I really enjoyed working here part time as I continued my computer science degree at university. During this time I mainly used Swift and the UIKit framework to developed the UI components of the app. 
-    But where this app was different than most other apps was that it used push notifications as a core function of the app and it was the one of the hardest parts in developing this iOS app.
+    ios: `During my last year of university, I did an internship at Appworx where I was responsible for making an iPhone iOS app called Reach!
+    I thoroughly enjoyed working at Appworx part time as I continued my computer science degree at university. During this time I mainly used Swift and the UIKit framework to develop the UI components of the app. This app was different to most other apps whereby it used push notifications as the core function of the app, which made it one of the most challenging, but equally rewarding parts in developing this iOS app.
     
-    While learning iOS development I also learnt topics such as database management, mySQL and RESTful API's. This was due to me working closely with the backend developer who made the database and API before I started my internship. 
-    I got exposed to these topics as the iOS app I was developing was highly dependant on doing GET and POSTS requests to his RESTful API and to his database. 
+    While learning iOS development I also learnt topics such as database management, mySQL and RESTful API's. This was through working closely with the backend developer who made the database and API before I started my internship.
+    I was exposed to these topics as the iOS app I was developing was highly dependent on doing GET and POSTS requests to his RESTful API and to his database.
     `,
-    uiDesign: `Iv always been facinated with UI design and User Experience. 
-    I took a course at the University of Auckland, that I really enjoyed where I learnt useful knowledge such as colour theory, 
-    nielsen's heuristics, user experience and design rules that can be applied to any user interface.  
-    I then used this knowledge to enform my design desicions for my iOS internship. However, the Reach! app didnt have a complex UI, so it didnt allow me to showcase my UI techniques and knowledge.
-    I always love a challenge and always want to find ways to challenge my UI design skills. 
+    uiDesign: `I've always been facinated with UI design and User Experience.
+    I took a very enjoyable course at the University of Auckland, where I learnt useful knowledge such as colour theory,
+    nielsen's heuristics, user experience and design rules that can be applied to any user interface.
+
+    I then used this knowledge to inform my design desicions for my iOS internship. However, the Reach! app didnt have a complex UI, so it didn't allow me to showcase my UI techniques and knowledge.
+    I always love a challenge and always want to find ways to challenge my UI design skills.
     `,
     webDev: ""
 }

@@ -29,7 +29,9 @@ function HomeAboutMe() {
                     <img src={profileImage} alt="Patrik Profile" className="w-45 rounded-md h-40 " />
                     <div id="body" className="flex flex-col ml-5">
                         <h4 id="name" className="text-xl font-semibold mb-2">Hi, Nice to meet you, Im Patrik</h4>
-                        <p id="job" className="text-gray-800 mt-2">Just graduated from the University of Auckland, I'm passionate about software development and UI/UX design. I always love learning new thing and also try to adapt to new and exciting situations</p>
+                        <p id="job" className="text-gray-800 mt-2">I just graduated from the University of Auckland in October 2021. 
+                        I have a passion for software development and UI/UX design. I always love learning new things and trying to adapt to new and exciting situations.
+                        </p>
                     </div>
                 </div>
             </div>
