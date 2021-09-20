@@ -7,13 +7,13 @@ export default function About(){
        <main className="relative h-screen bg-gray-200">
            {/* <img src={image} alt="Background" className="absolute w-full" /> */}
            <div className="p-10 lg:pt-20 mx-auto relative bg-c-black">
-               <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20 mb-32">
+               <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20 mb-32">
                    <img src={profilePic} alt="Patrik Profile" className="rounded mr-8 w-auto h-80" />
                    <div className="text-lg flex flex-col justify-center">
-                       <h1 className="cursive text-6xl text-green-600 mb-4">
-                           Hey There. I'm <span className="text-green-100">Patrik</span>
+                       <h1 className="cursive text-6xl text-gray-700 mb-4">
+                           Hey There. I'm <span className="text-gray-900">Patrik</span>
                        </h1>
-                       <div className="prose lg:prose-xl text-white">
+                       <div className="prose lg:prose-xl text-gray-800">
                        <p> Computer Science Graduate from the University of Auckland. </p>
                        </div>
                    </div>

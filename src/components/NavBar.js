@@ -23,7 +23,7 @@ export default function NavBar(){
                     to="/project" 
                     activeClassName="text-white bg-gray-600"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-400 hover:text-yellow-300">
-                        Project
+                        Projects
                     </NavLink>
                     <NavLink 
                     to="/about" 

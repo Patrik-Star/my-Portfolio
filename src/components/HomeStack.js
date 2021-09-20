@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import reactLogo from '../images/reactLogo.png';
 
 var stackArray = [
                 'Python',
@@ -18,10 +19,13 @@ var stackArray = [
                 'Pycharm',
                 'Intellij',
                 'CLion',
-                'Sublime'];
+                'HTML/CSS',
+                'Javascript',
+                'ReactJS',
+                'Tailwind CSS'];
 
 var imageDict = {
-                Python: '/python_bg.png',
+                'Python': '../images/python_bg.png',
                 'Java': '', 
                 'Swift': '', 
                 'AWS': '', 
@@ -36,7 +40,10 @@ var imageDict = {
                 'Pycharm': '',
                 'Intellij': '',
                 'CLion': '',
-                'Sublime': ''};
+                'HTML/CSS': '',
+                'Javascript': '',
+                'ReactJS': '',
+                'Tailwind CSS': ''};
 // var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
 
 // const getUniqueFromRange = (max) => {
@@ -65,7 +72,9 @@ console.log(chooser())
 function createElements(n){
     var elements = [];
     for(let i = 0; i < n; i++){
-        elements.push(<div className={`bg-white rounded p-4 border-2 border-c-light-blue`}>{chooser()[0]}</div>);
+        elements.push(<div className={`bg-white rounded p-4 border-2 border-c-light-blue`}>
+            {chooser()[0]}
+        </div>);
     }
     return elements;
 }
@@ -82,7 +91,7 @@ function HomeStack() {
             <h1 className="text-5xl font-bold pt-10">Stack I use</h1>
             <div data-aos="fade-down" className="flex flex-wrap justify-center mt-10">
                 <span><img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIcon"/></span>
-                <span><img src={process.env.PUBLIC_URL + '/logo512.png'} alt="React Logo" className="stackIcon"/></span>
+                <span><img src={reactLogo} alt="React Logo" className="stackIcon"/></span>
                 <span><img src={process.env.PUBLIC_URL + '/pythonLogo.png'} alt=" Python Logo" className="stackIcon"/></span>
                 <span><img src={process.env.PUBLIC_URL + '/awsLogo.jpg'} alt="AWS Logo" className="stackIcon"/></span>
             </div>

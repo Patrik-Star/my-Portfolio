@@ -11,7 +11,7 @@ const statementObj ={
         jobPosition: "Head of Technology"
     },
     Diane: {
-        title: "a courteous young man",
+        title: "A courteous young man",
         body: "Patrik is a courteous young man, always enthusiastic about learning something new and taking on a project with an intense desire to see a successful end result.  He is proactive, diligent and a really nice, honest young man.",
         image: "https://appworx.nz/images/diane.jpg",
         link: "https://appworx.nz",
