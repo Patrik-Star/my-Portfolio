@@ -10,6 +10,7 @@ import XDScreenshot from '../images/adobeXDLogo.png';
 import xcodeLogo from '../images/xcodeLogo.png';
 import swiftLogo from '../images/swiftLogo.png';
 import postmanLogo from '../images/postmanLogo.png';
+import ToolCard from './ToolCard';
 
 const paragraphs = {
     ios: `During my last year of university, I did an internship at Appworx where I was responsible for making an iPhone iOS app called Reach!
@@ -47,39 +48,9 @@ function HomeWhatIDo() {
                             <div className="bg-gray-100 p-2 rounded row-span-4 col-span-2 flex justify-center">
                                 <img src={ReachScreenshot} alt="" className="w-full" />
                             </div>
-                            
-                            <div className="bg-white rounded" style={{
-                                backgroundImage: `url(${swiftLogo})`,
-                                backgroundPosition: 'center',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat'
-                                }}>
-                                <div className="w-full h-full bg-gradient-to-t from-gray-700 to-transparent align-bottom flex flex-wrap justify-center content-end rounded p-10">
-                                    <h2 className=" text-2xl text-white -mb-10"> Swift</h2>
-                                </div>
-                            </div>
-                            
-                            <div className="bg-white rounded" style={{
-                                backgroundImage: `url(${xcodeLogo})`,
-                                backgroundPosition: 'center',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat'
-                                }}>
-                                <div className="w-full h-full bg-gradient-to-t from-gray-700 to-transparent align-bottom flex flex-wrap justify-center content-end rounded p-10">
-                                    <h2 className=" text-2xl text-white -mb-10"> xCode</h2>
-                                </div>
-                            </div>
-
-                            <div className="bg-white rounded" style={{
-                                backgroundImage: `url(${postmanLogo})`,
-                                backgroundPosition: 'center',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat'
-                                }}>
-                                <div className="w-full h-full bg-gradient-to-t from-gray-700 to-transparent align-bottom flex flex-wrap justify-center content-end rounded p-10">
-                                    <h2 className=" text-2xl text-white -mb-10"> Postman</h2>
-                                </div>
-                            </div>
+                            <ToolCard image={swiftLogo} name="swift" />
+                            <ToolCard image={xcodeLogo} name="xCode" />
+                            <ToolCard image={postmanLogo} name="Postman" />
                             
                             <div className="bg-white p-2 rounded col-span-3 row-span-3">
                                 <p className=" text-left p-2 text-gray-700" style={{whiteSpace: 'pre-line'}}> {paragraphs.ios}</p>

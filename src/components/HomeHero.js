@@ -43,7 +43,7 @@ function HomeHero() {
 
             {/* right */}
             <div className="md:w-1/3 mb-0 mr-40 mt-10 border-0 border-red-500 align-bottom justify-end">
-                <img src={image} alt="Patrik profile" class="w-full py-0" />
+                <img src={image} alt="Patrik profile" className="w-full py-0" />
             </div>
 
         </div>

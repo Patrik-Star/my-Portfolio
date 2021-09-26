@@ -31,7 +31,7 @@ export default function SinglePost(){
         .catch(console.error)
     }, [slug]);
     
-    console.log(singlePost)
+    // console.log(singlePost)
     if(!singlePost) return <div>Loading...</div>;
 
     return (

@@ -3,14 +3,35 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import reactLogo from '../images/reactLogo.png';
 
+import PythonLogo from '../images/python_bg.png';
+import JavaLogo from '../images/javaLogo.png';
+import SwiftLogo from '../images/swiftLogo.png';
+import AWSLogo from '../images/awsLogo.jpg';
+import FigmaLogo from '../images/figma.png';
+import AdobeXDLogo from '../images/adobeXDLogo.png';
+import GithubLogo from '../images/githubLogo.png';
+import PostmanLogo from '../images/postmanLogo.png';
+import InsomniaLogo from '../images/insomniaLogo.png';
+import DrawIOLogo from '../images/drawioLogo.png';
+import XcodeLogo from '../images/xcodeLogo.png';
+import VSCodeLogo from '../images/vscodeLogo.png';
+import PycharmLogo from '../images/pycharmLogo.png';
+import IntellijLogo from '../images/intellijLogo.png';
+import HTMLLogo from '../images/htmlLogo.png';
+import CSSLogo from '../images/cssLogo.png';
+import JavascriptLogo from '../images/javascriptLogo.png';
+import ReactLogo from '../images/reactLogo.png';
+import TailwindcssLogo from '../images/tailwindcssLogo.png';
+import ToolCardV2 from "./ToolCardV2";
+
 var stackArray = [
                 'Python',
                 'Java', 
                 'Swift', 
                 'AWS', 
                 'Figma', 
-                'Adobe XD', 
-                'GitHub', 
+                'AdobeXD', 
+                'Git/GitHub', 
                 'Postman', 
                 'Insomnia', 
                 'Draw.io', 
@@ -18,32 +39,32 @@ var stackArray = [
                 'VS Code',
                 'Pycharm',
                 'Intellij',
-                'CLion',
-                'HTML/CSS',
+                'HTML',
+                'CSS',
                 'Javascript',
                 'ReactJS',
                 'Tailwind CSS'];
 
 var imageDict = {
-                'Python': '../images/python_bg.png',
-                'Java': '', 
-                'Swift': '', 
-                'AWS': '', 
-                'Figma': '', 
-                'Adobe XD': '', 
-                'GitHub': '', 
-                'Postman': '', 
-                'Insomnia': '', 
-                'Draw.io': '', 
-                'XCode': '', 
-                'VS Code': '',
-                'Pycharm': '',
-                'Intellij': '',
-                'CLion': '',
-                'HTML/CSS': '',
-                'Javascript': '',
-                'ReactJS': '',
-                'Tailwind CSS': ''};
+                'Python': PythonLogo,
+                'Java': JavaLogo, 
+                'Swift': SwiftLogo, 
+                'AWS': AWSLogo, 
+                'Figma': FigmaLogo, 
+                'AdobeXD': AdobeXDLogo, 
+                'Git/GitHub': GithubLogo, 
+                'Postman': PostmanLogo, 
+                'Insomnia': InsomniaLogo, 
+                'Draw.io': DrawIOLogo, 
+                'XCode': XcodeLogo, 
+                'VS Code': VSCodeLogo,
+                'Pycharm': PycharmLogo,
+                'Intellij': IntellijLogo,
+                'HTML': HTMLLogo,
+                'CSS': CSSLogo,
+                'Javascript': JavascriptLogo,
+                'ReactJS': ReactLogo,
+                'Tailwind CSS': TailwindcssLogo};
 // var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
 
 // const getUniqueFromRange = (max) => {
@@ -67,14 +88,24 @@ function randomNoRepeats() {
 }
 
 var chooser = randomNoRepeats();
-console.log(chooser())
+
+
+// function createElements(n){
+//     var elements = [];
+//     for(let i = 0; i < n; i++){
+//         elements.push(<div className={`bg-white rounded p-4 border-2 border-c-light-blue`}>
+//             {chooser()[0]}
+//         </div>);
+//     }
+//     return elements;
+// }
 
 function createElements(n){
     var elements = [];
     for(let i = 0; i < n; i++){
-        elements.push(<div className={`bg-white rounded p-4 border-2 border-c-light-blue`}>
-            {chooser()[0]}
-        </div>);
+        let pair = chooser()
+        console.log(pair[0]);
+        elements.push(<ToolCardV2 name={pair[0]} image={pair[1]}/>);
     }
     return elements;
 }
@@ -90,10 +121,10 @@ function HomeStack() {
         <div className="h-auto flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-200 pb-44"> {/**pb-44 */}
             <h1 className="text-5xl font-bold pt-10">Stack I use</h1>
             <div data-aos="fade-down" className="flex flex-wrap justify-center mt-10">
-                <span><img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIcon"/></span>
+                <span><img src={SwiftLogo} alt="Swift Logo" className="stackIcon"/></span>
                 <span><img src={reactLogo} alt="React Logo" className="stackIcon"/></span>
-                <span><img src={process.env.PUBLIC_URL + '/pythonLogo.png'} alt=" Python Logo" className="stackIcon"/></span>
-                <span><img src={process.env.PUBLIC_URL + '/awsLogo.jpg'} alt="AWS Logo" className="stackIcon"/></span>
+                <span><img src={PythonLogo} alt=" Python Logo" className="stackIcon"/></span>
+                <span><img src={AWSLogo} alt="AWS Logo" className="stackIcon"/></span>
             </div>
 
             <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 pb-10 font-mono">
@@ -102,21 +133,12 @@ function HomeStack() {
                 I plan on extending my ReactJS knowledge to make cross platform smartphone apps using React-Native.
             </p>
 
-            <h1 className="text-5xl font-bold mb-7">Other Tools</h1>
-            <div className="grid grid-cols-4 gap-4 w-4/5 text-center text-black">
-                {createElements(16)}    
+            <h1 className="text-5xl font-bold mb-7 mt-5">Other Tools/Languages</h1>
+            
+            <div className="w-4/5 grid grid-cols-2 md:grid-cols-4 gap-8 h-auto"> 
+                
+                {createElements(Object.keys(stackArray).length)}   
             </div>
-
-            {/* <div class="container mx-auto w-60 rounded-lg overflow-hidden shadow-lg my-2 bg-white">
-                <div class="relative mb-6">
-                    <img class="w-full" src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="#" />
-                    <div class="text-center absolute w-full" >
-                        <div class="mb-10">
-                            <p class="text-gray-800 tracking-wide uppercase text-3xl font-bold -m-10">Swift</p>
-                        </div> 
-                    </div>
-                </div>
-            </div> */}
 
         </div>
     )
@@ -126,22 +148,7 @@ export default HomeStack;
 
 
 
-/* <div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div>
-<div className="bg-white rounded p-4">{chooser()}</div> */
+
 
 
 /* <img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIconGrid"/>,

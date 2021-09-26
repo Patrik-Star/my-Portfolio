@@ -11,7 +11,7 @@ export default function About(){
                    <img src={profilePic} alt="Patrik Profile" className="rounded mr-8 w-auto h-80" />
                    <div className="text-lg flex flex-col justify-center">
                        <h1 className="cursive text-6xl text-gray-700 mb-4">
-                           Hey There. I'm <span className="text-gray-900">Patrik</span>
+                           Hey There. I'm <span className="text-yellow-400">Patrik</span>
                        </h1>
                        <div className="prose lg:prose-xl text-gray-800">
                        <p> Computer Science Graduate from the University of Auckland. </p>
