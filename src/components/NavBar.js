@@ -32,7 +32,7 @@ export default function NavBar(){
                         My Story
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3 px-3 my-6">
+                <div className="inline-flex py-3 px-3 my-6 invisible sm:visible">
                     <SocialIcon url="https://www.linkedin.com/in/patrik-bolander-2737aa1a4/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 40, width: 40}} />
                     {/* <SocialIcon url="" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} /> */}
                     <SocialIcon url="https://www.instagram.com/patrikbolander/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 40, width: 40}} />

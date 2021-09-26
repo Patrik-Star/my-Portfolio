@@ -133,10 +133,9 @@ function HomeStack() {
                 I plan on extending my ReactJS knowledge to make cross platform smartphone apps using React-Native.
             </p>
 
-            <h1 className="text-5xl font-bold mb-7 mt-5">Other Tools/Languages</h1>
+            <h1 className="text-5xl font-bold mb-7 mt-5 text-center">Other Tools/Languages</h1>
             
-            <div className="w-4/5 grid grid-cols-2 md:grid-cols-4 gap-8 h-auto"> 
-                
+            <div className="w-full px-5 md:px-0 md:w-4/5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 h-auto"> 
                 {createElements(Object.keys(stackArray).length)}   
             </div>
 
@@ -145,17 +144,6 @@ function HomeStack() {
 }
 
 export default HomeStack;
-
-
-
-
-
-
-/* <img src={process.env.PUBLIC_URL + '/swiftLogo.png'} alt="Swift Logo" className="stackIconGrid"/>,
-<img src={process.env.PUBLIC_URL + '/logo512.png'} alt="React Logo" className="stackIconGrid"/>,
-<img src={process.env.PUBLIC_URL + '/pythonLogo.png'} alt=" Python Logo" className="stackIconGrid"/>,
-<img src={process.env.PUBLIC_URL + '/awsLogo.jpg'} alt="AWS Logo" className="stackIconGrid"/>, */
-
 
 
 /* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

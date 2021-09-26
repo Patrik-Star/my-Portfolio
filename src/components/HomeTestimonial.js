@@ -40,7 +40,7 @@ function HomeTestimonial() {
                         ]} />
             </h1>
             
-            <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 justify-self-center"> {/** block md:flex items-center justify-center*/}
+            <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 justify-self-center justify-center"> {/** block md:flex items-center justify-center*/}
                 {items}
             </div>
         </div>
