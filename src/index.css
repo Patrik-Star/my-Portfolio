@@ -5,6 +5,12 @@
 @import url("https://unpkg.com/tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #3498db;
+}
+
 .cursive{
   font-family: "Roboto Mono";
   font-weight: 700;
