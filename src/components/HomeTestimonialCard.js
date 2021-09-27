@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomeTestimonialCard(props) {
     return (
-        <div className="max-w-md py-4 px-8 bg-white rounded-lg my-10 md:my-20 mx-1 md:mx-20 h-72 md:h-60 relative drop-shadow-lg"> {/* CARD */}
+        <div className="max-w-md py-4 px-8 bg-white rounded-lg my-10 md:my-20 mx-1 md:mx-20 h-80 md:h-60 relative drop-shadow-lg"> {/* CARD */}
             <div className="flex justify-center md:justify-end -mt-16">
                 <img className="w-20 h-20 object-cover rounded-full border-2 border-c-light-blue" alt="" src={props.image} />
             </div>
