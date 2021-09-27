@@ -31,11 +31,11 @@ function HomeHero() {
                 </p>
 
                 <a href="mailto:patrik@patrikbolander.com">
-                    <button className="bg-c-light-blue hover:bg-c-dark-blue hover:border-c-dark-blue text-white font-bold py-3 px-5 rounded mt-5 border-2 border-c-light-blue ">
+                    <button className="bg-c-light-blue hover:bg-c-dark-blue hover:border-c-dark-blue text-white font-bold py-3 px-5 rounded mt-5 border-2 border-c-light-blue transform hover:-translate-y-2">
                         Email Me
                     </button>
                 </a>
-                <a href="/about"><button className="text-white bg-opacity-0 border-2 border-c-light-blue hover:border-c-dark-blue font-bold rounded py-3 px-6 ml-4"> 
+                <a href="/about"><button className="text-white bg-opacity-0 border-2 border-c-light-blue hover:border-c-dark-blue font-bold rounded py-3 px-6 ml-4 transform hover:-translate-y-2"> 
                     My Story
                     </button>
                 </a>

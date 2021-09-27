@@ -28,7 +28,7 @@ function HomeContactMe() {
                 <div data-aos="fade-right" className="block items-center p-4 bg-white border-2 border-gray-200 rounded-3xl shadow-sm w-full md:w-3/5 my-8 justify-center text-center">
                     <h1 className="text-4xl p-5 font-mono font-bold">My Curriculum Vitae (CV) </h1>
                     <a href={myCV} download="Patrik Bolander CV" target='_blank' rel="noreferrer">
-                        <button className="bg-c-light-blue rounded-lg py-5 px-10 text-white hover:bg-c-dark-blue">Download</button>
+                        <button className="bg-c-light-blue rounded-lg py-5 px-10 text-white hover:bg-c-dark-blue transform hover:-translate-y-2">Download</button>
                     </a>
                 </div>
             </div>
