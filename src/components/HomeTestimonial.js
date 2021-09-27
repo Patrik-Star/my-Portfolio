@@ -31,7 +31,7 @@ function HomeTestimonial() {
 
     return (
         <div className="w-full bg-c-black p-10 sm:justify-center">
-            <h1 className="text-4xl text-white mx-10 font-mono text-center md:text-left">
+            <h1 className="text-3xl md:text-4xl text-white mx-1 md:mx-10 font-mono text-center md:text-left bg-blue-600 ">
                 <Typical loop={Infinity} wrapper="b"
                         steps={['Some Testimonials...', 
                         14000, 
