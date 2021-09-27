@@ -7,7 +7,7 @@ function HomeTestimonialCard(props) {
                 <img className="w-20 h-20 object-cover rounded-full border-2 border-c-light-blue" alt="" src={props.image} />
             </div>
             <div>
-                <h2 className="text-gray-800 text-3xl font-semibold italic">{props.title}</h2>
+                <h2 className="text-gray-800 text-2xl font-semibold italic">{props.title}</h2>
                 <p className="mt-2 text-gray-600 break-words ">{props.body}</p>
             </div>
             <div className="static ">
