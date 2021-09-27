@@ -44,15 +44,16 @@ function HomeWhatIDo() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-10 sm:px-0">
                     <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-8 text-center md:col-span-2 justify-center items-center" > {/** CARD */}
                         <h1 className="text-3xl font-bold">iPhone iOS Development</h1>
+
                         <div className="grid bg-gray-100 grid-cols-5 gap-5 p-5 "> 
-                            <div className="bg-gray-100 p-2 rounded row-span-4 col-span-2 flex justify-center">
+                            <div className="bg-gray-100 p-2 rounded row-span-3 md:row-span-4 col-span-2 flex justify-center ">
                                 <img src={ReachScreenshot} alt="" className="w-full" />
                             </div>
                             <ToolCard image={swiftLogo} name="swift" />
                             <ToolCard image={xcodeLogo} name="xCode" />
                             <ToolCard image={postmanLogo} name="Postman" />
                             
-                            <div className="bg-white p-2 rounded col-span-3 row-span-3">
+                            <div className="bg-white p-2 rounded col-span-5 md:col-span-3 row-span-3">
                                 <p className=" text-left p-2 text-gray-700" style={{whiteSpace: 'pre-line'}}> {paragraphs.ios}</p>
                             </div>
                             

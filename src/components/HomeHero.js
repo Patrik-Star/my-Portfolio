@@ -6,14 +6,14 @@ import Typical from 'react-typical';
 function HomeHero() {
 
     return (
-        <div className="md:flex justify-between py-0 px-10 bg-c-black text-c-white">
+        <div className="block md:flex justify-center md:justify-between py-0 px-10 bg-c-black text-c-white">
 
             {/* Left */}
-            <div className="md:w-1/2 mb-10 md:mb-0 mt-20 mx-auto">
+            <div className="md:w-1/2 mb-10 md:mb-0  mx-auto bg-c-black text-center md:text-left mt-10 md:mt-20">
                 <h2 className="text-xl md:text-3xl text-gray-400 mb-6 mt-0 sm:text-5xl font-semibold italic">Hi, I'm</h2>
-                <h2 className="text-2xl md:text-4xl lg:text-6xl text-white mb-6 mt-0 sm:text-5xl">Patrik Bolander</h2>
+                <h2 className="text-5xl md:text-4xl lg:text-6xl text-white mb-6 mt-0 ">Patrik Bolander</h2>
                 {/* <h1 className="text-blue-200 text-xl font-bold"></h1> */}
-                <p className='text-blue-200 font-bold text-xl font-mono'>
+                <p className='text-blue-200 font-bold text-lg md:text-xl font-mono'>
                     <Typical loop={Infinity} wrapper="b" className=''
                         steps={['I\'m a Computer science Graduate.🎓🎉', 
                         2000, 
@@ -31,7 +31,7 @@ function HomeHero() {
                 </p>
 
                 <a href="mailto:patrik@patrikbolander.com">
-                    <button className="bg-c-light-blue hover:bg-c-dark-blue hover:border-c-dark-blue text-white font-bold py-3 px-5 rounded mt-5 border-2 border-c-light-blue">
+                    <button className="bg-c-light-blue hover:bg-c-dark-blue hover:border-c-dark-blue text-white font-bold py-3 px-5 rounded mt-5 border-2 border-c-light-blue ">
                         Email Me
                     </button>
                 </a>
@@ -42,8 +42,8 @@ function HomeHero() {
             </div>
 
             {/* right */}
-            <div className="md:w-1/3 mb-0 mr-40 mt-10 border-0 border-red-500 align-bottom justify-end">
-                <img src={image} alt="Patrik profile" className="w-full py-0" />
+            <div className="md:w-1/3 md:mt-20 md:mr-44">
+                <img src={image} alt="Patrik profile" className="" />
             </div>
 
         </div>
