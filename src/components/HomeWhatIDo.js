@@ -20,8 +20,7 @@ const paragraphs = {
     I was exposed to these topics as the iOS app I was developing was highly dependent on doing GET and POSTS requests to his RESTful API and to his database.
     `,
     uiDesign: `I've always been facinated with UI design and User Experience.
-    I took a very enjoyable course at the University of Auckland, where I learnt useful knowledge such as colour theory,
-    nielsen's heuristics, user experience and design rules that can be applied to any user interface.
+    I took a very enjoyable course at the University of Auckland, where I learnt useful knowledge such as colour theory, nielsen's heuristics, user experience and design rules that can be applied to any user interface.
 
     I then used this knowledge to inform my design desicions for my iOS internship. However, the Reach! app didnt have a complex UI, so it didn't allow me to showcase my UI techniques and knowledge.
     I always love a challenge and always want to find ways to challenge my UI design skills.
