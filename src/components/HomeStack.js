@@ -135,7 +135,7 @@ function HomeStack() {
 
             <h1 className="text-5xl font-bold mb-7 mt-5 text-center">Other Tools/Languages</h1>
             
-            <div className="w-full px-5 md:px-0 md:w-4/5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 h-auto"> 
+            <div className="container w-full px-5 md:px-0 md:w-2/3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 h-auto"> 
                 {createElements(Object.keys(stackArray).length)}   
             </div>
 
