@@ -11,7 +11,7 @@ import Footer from "./Footer";
 export default function Home(){
     
     return (
-        <div className="">
+        <div className="test">
             <HomeHero />
             <HomeAboutMe />
             <HomeWhatIDo />
