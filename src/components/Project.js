@@ -1,24 +1,25 @@
 import React, {useEffect, useState} from 'react';
 import SanityClient from '../client.js';
+import projectData from '../content/ProjectsData.json';
 
 export default function Project(){
 
-    const [projectData, setProjectData] = useState(null);
+    // const [projectData, setProjectData] = useState(null);
 
-    useEffect(() => {
-        SanityClient.fetch(`*[_type == "project"]{
-            title,
-            date,
-            place,
-            description,
-            projectType,
-            link,
-            tags,
-            "projectImage": image.asset->url
-        }`)
-        .then((data) => setProjectData(data))
-        .catch(console.error);
-    }, []);
+    // useEffect(() => {
+    //     SanityClient.fetch(`*[_type == "project"]{
+    //         title,
+    //         date,
+    //         place,
+    //         description,
+    //         projectType,
+    //         link,
+    //         tags,
+    //         "projectImage": image.asset->url
+    //     }`)
+    //     .then((data) => setProjectData(data))
+    //     .catch(console.error);
+    // }, []);
 
     return(
         <main className="min-h-screen p-12 bg-gradient-to-b from-c-black to-gray-700">
