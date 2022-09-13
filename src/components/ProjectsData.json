@@ -1,0 +1,22 @@
+[
+    {
+        "projectId": 0,
+        "title": "test title", 
+        "place": "Auckland, NZ",
+        "projectType": "",
+        "dateCreated": "01/01/01T00:00:0000",
+        "image": "",
+        "body": "this is a body",
+        "tags": ["tags 1", "tags 2"]
+    },
+    {
+        "projectId": 1,
+        "title": "test title 1", 
+        "place": "Auckland, NZ",
+        "projectType": "",
+        "dateCreated": "01/01/01T00:00:0000",
+        "image": "",
+        "body": "this is a body 1",
+        "tags": ["tags 3"]
+    }
+]
