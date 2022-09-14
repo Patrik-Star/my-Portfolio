@@ -1,0 +1,16 @@
+[
+    {
+        "postId": 0,
+        "title": "test title", 
+        "dateCreated": "01/01/01T00:00:0000",
+        "image": "",
+        "body": "this is a body"
+    },
+    {
+        "postId": 1,
+        "title": "test title 2", 
+        "dateCreated": "01/01/01T00:00:0000",
+        "image": "",
+        "body": "this is a body 2"
+    }
+]
