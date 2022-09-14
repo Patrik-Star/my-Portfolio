@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import projectData from '../content/ProjectsData.json';
 
 export default function Project(){
