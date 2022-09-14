@@ -17,7 +17,7 @@
         "date": "2021",
         "image": "",
         "body": "During my internship at Appworx, I developed the iOS version of \"Reach!\" along side the Andriod developer and published it successfully to the Apple iOS app store. ",
-        "tags": ["Swift", "UI Kit", "Apple", "App store", "iOS", "Mobile", "Apple Compliance"],
+        "tags": ["Swift", "UI Kit", "Apple", "App store", "iOS", "Mobile", "Apple Compliance", "UI design"],
         "link": "https://appworx.nz/shop/"
     },
     {
@@ -36,7 +36,7 @@
         "place": "Datacom NZ",
         "projectType": "Full Stack",
         "date": "August 2022",
-        "body": "Doing full-stack development using Java springboot microservice architecture to implement and new feature to their existing application.",
+        "body": "Doing full-stack development using Java springboot microservice architecture to implement a new feature to their existing application.",
         "tags": ["Java", "Java Sprintboot", "VueJS", "Openshift", "PostgresSQL", "PG Admin"],
         "link": "https://wiseemployment.com.au"
     },
