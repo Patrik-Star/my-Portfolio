@@ -35,9 +35,9 @@ export default function Project(){
                                     👉  
                                     </span>
                                 </a>
-                                <div class="justify-left my-8 select-none flex">
+                                <div class="justify-left mt-5 flex flex-wrap">
                                     {project.tags && project.tags.map((tag, index) => (
-                                        <div class="py-2 px-4 shadow-md rounded-full bg-gray-100 text-gray-700 font-mono text-xs mr-2">
+                                        <div class="py-2 px-4 shadow-md rounded-full bg-gray-100 text-gray-700 font-mono text-xs mr-2 mt-2">
                                             {tag}
                                         </div>
                                     ))}
