@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-// import WireframeCarousel from './WireframeCarousel';
 
 import ReachScreenshot from '../images/Reach iPhone11.png';
 import wireframeScreenshot from '../images/wireframeScreenshot.png';
@@ -65,7 +64,6 @@ function HomeWhatIDo() {
                         <div className="grid bg-gray-100 grid-cols-4 gap-5 p-1 md:p-5">
                             <div className="bg-gray-200 rounded-xl col-span-3 row-span-2 p-1 ">
                                 <img src={wireframeScreenshot} alt="Patrik's figma wireframe" />
-                                {/* <WireframeCarousel /> */}
                             </div>
                             <div className="rounded"> <img src={figmaScreenshot} alt="figma logo" /></div>
                             <div className="rounded"><img src={XDScreenshot} alt="adobeXD logo" /></div>

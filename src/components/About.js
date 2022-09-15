@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+// import Markdown from 'markdown-to-jsx';
+import ReactMarkdown from "react-markdown";
+
 import profilePic from '../images/ProfilePic.JPG';
 
 export default function About(){ 
 
+    const [about, setAbout] = useState('');
+
+    useEffect(() => {
+        import(`../content/Story.md`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res => res.text())
+                    .then(res => setAbout(res));
+            })
+            .catch(err => console.log(err));
+    });
+
     return (
-       <main className="relative h-screen bg-gray-200">
+       <main className="relative h-screen bg-gray-100">
            {/* <img src={image} alt="Background" className="absolute w-full" /> */}
            <div className="p-10 lg:pt-20 mx-auto relative bg-c-black">
                <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20 mb-32">
@@ -20,8 +35,11 @@ export default function About(){
                </section>
            </div>
 
-           <div className=" w-screen text-center h-24 pt-5">
-               <h1 className=" font-medium text-6xl italic text-gray-600"  >More Coming soon!</h1>
+           <div className=" w-screen text-center pt-5 bg-gray-100 block">
+               <h1 className=" font-medium text-6xl italic text-gray-600">More Coming soon!</h1>
+                <ReactMarkdown className="prose text-center">
+                    {about}
+                </ReactMarkdown>
            </div>
            
        </main>
