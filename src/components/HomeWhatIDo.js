@@ -25,7 +25,7 @@ const paragraphs = {
     I then used this knowledge to inform my design desicions for my iOS internship. However, the Reach! app didnt have a complex UI, so it didn't allow me to showcase my UI techniques and knowledge.
     I always love a challenge and always want to find ways to challenge my UI design skills.
     `,
-    webDev: ""
+    fullStack: ``
 }
 
 function HomeWhatIDo() {
@@ -46,7 +46,7 @@ function HomeWhatIDo() {
 
                         <div className="grid bg-gray-100 grid-cols-5 gap-5 p-1 md:p-5 "> 
                             <div className="bg-gray-100 p-2 rounded row-span-3 md:row-span-4 col-span-2 flex justify-center ">
-                                <img src={ReachScreenshot} alt="" className="w-full" />
+                                <img src={ReachScreenshot} alt="" className="w-full object-contain" />
                             </div>
                             <ToolCard image={swiftLogo} name="swift" />
                             <ToolCard image={xcodeLogo} name="xCode" />
@@ -76,8 +76,8 @@ function HomeWhatIDo() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-right" className="bg-white rounded-lg p-8 text-center mt-2 md:col-span-2">{/** CARD */}
-                        <h1 className="text-3xl font-bold">Web Development</h1>
+                    <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-3 md:p-8 text-center md:col-span-2 justify-center items-center">{/** CARD */}
+                        <h1 className="text-3xl font-bold">Full Stack</h1>
                     </div>
                     
                 </div>

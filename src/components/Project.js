@@ -29,12 +29,14 @@ export default function Project(){
                                     {project.projectType}
                                 </span>
                                 <p className="my-6 text-lg text-gray-700 leading-relaxed">{project.body}</p>
+                                {project.link !== "Internal Project" ? 
                                 <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold text-xl hover:underline hover:text-red-400">
                                     View the project{" "}
                                     <span aria-label="right pointer">
                                     👉  
                                     </span>
-                                </a>
+                                </a> : <h1 className='text-gray-500 font-bold text-xl hover:underline hover:text-red-400'> Internal Project</h1>}
+                            
                                 <div class="justify-left mt-5 flex flex-wrap">
                                     {project.tags && project.tags.map((tag, index) => (
                                         <div class="py-2 px-4 shadow-md rounded-full bg-gray-100 text-gray-700 font-mono text-xs mr-2 mt-2">

@@ -21,7 +21,7 @@ function HomeHero() {
                         2000,
                         'I\'m a iOS app Developer. 📱',
                         2000,
-                        'I\'m a Website Designer. ✏️',
+                        'I\'m a Full Stack Developer. ✏️',
                         2000,
                         'I love to learn new things. 📚',
                         2000,

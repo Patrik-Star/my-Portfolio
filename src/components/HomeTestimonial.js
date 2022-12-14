@@ -6,7 +6,7 @@ const statementObj ={
     Rob: {
         title: "Committment to quality",
         body: "Patrik is our Apple app go to guy. He brings a flair for coding and a committment to quality. ",
-        image: "https://appworx.nz/images/rob.png",
+        image: 'https://media-exp1.licdn.com/dms/image/C5603AQFNPfcLnN4tyg/profile-displayphoto-shrink_400_400/0/1517671707157?e=1676505600&v=beta&t=y16AAmCCFshLn2S6Eg08pN1xuKJVw7HMVAKN36b338E',
         link: "https://appworx.nz",
         jobPosition: "Head of Technology"
     },

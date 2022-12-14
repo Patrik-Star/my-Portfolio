@@ -23,6 +23,8 @@ import JavascriptLogo from '../images/javascriptLogo.png';
 import ReactLogo from '../images/reactLogo.png';
 import TailwindcssLogo from '../images/tailwindcssLogo.png';
 import ToolCardV2 from "./ToolCardV2";
+import TypeScriptLogo from "../images/TypescriptLogo.png";
+// import AWSCDK from "../images/CdkLogo.png";
 
 var stackArray = [
                 'Python',
@@ -43,7 +45,9 @@ var stackArray = [
                 'CSS',
                 'Javascript',
                 'ReactJS',
-                'Tailwind CSS'];
+                'Tailwind CSS',
+                'Typescript',
+                'AWS CDK'];
 
 var imageDict = {
                 'Python': PythonLogo,
@@ -64,7 +68,8 @@ var imageDict = {
                 'CSS': CSSLogo,
                 'Javascript': JavascriptLogo,
                 'ReactJS': ReactLogo,
-                'Tailwind CSS': TailwindcssLogo};
+                'Tailwind CSS': TailwindcssLogo,
+                'Typescript': TypeScriptLogo};
 // var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
 
 // const getUniqueFromRange = (max) => {
@@ -104,7 +109,7 @@ function createElements(n){
     var elements = [];
     for(let i = 0; i < n; i++){
         let pair = chooser()
-        console.log(pair[0]);
+        // console.log(pair[0]);
         elements.push(<ToolCardV2 name={pair[0]} image={pair[1]}/>);
     }
     return elements;

@@ -49,5 +49,15 @@
         "body": "During my time in the Graduate program, I made UI designs in figma following mobile first approach and UI/UX best practices.",
         "tags": ["Figma", "UI design", "UX process", "Mentorship", "Mobile"],
         "link": "https://www.supportcrew.co"
+    },
+    {
+        "projectId": 5,
+        "title": "DJMIA", 
+        "place": "Datacom NZ",
+        "projectType": "AWS",
+        "date": "september 2022",
+        "body": "Writing Infrastructre as code in Typescript to use AWS's CDK to deploy resources in AWS such as lambda functions in nodeJS while using Selenium, Deployed using Docker containers.",
+        "tags": ["AWS", "AWS CDK", "Typescript", "AWS Architecture", "AWS Lambda", "NodeJs", "DynamoDB", "Selenium", "Docker"],
+        "link": "Internal Project"
     }
 ]
