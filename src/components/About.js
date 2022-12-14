@@ -1,41 +1,43 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+import React from "react";
 // import Markdown from 'markdown-to-jsx';
-import ReactMarkdown from "react-markdown";
+// import ReactMarkdown from "react-markdown";
 
 import profilePic from '../images/ProfilePic.JPG';
 
 export default function About(){ 
 
-    const [about, setAbout] = useState('');
-    const [sectionArray, setSectionArray] = useState(null);
+//     const [about, setAbout] = useState('');
+//     const [sectionArray, setSectionArray] = useState(null);
 
-    useEffect(() => {
-        import(`../content/Story.md`)
-            .then(res => {
-                fetch(res.default)
-                    .then(res => res.text())
-                    .then(res => setAbout(res))
-            })
-            .catch(err => console.log(err));
-    },[]);
+//     useEffect(() => {
+//         import(`../content/Story.md`)
+//             .then(res => {
+//                 fetch(res.default)
+//                     .then(res => res.text())
+//                     .then(res => setAbout(res))
+//             })
+//             .catch(err => console.log(err));
+//     },[]);
 
-    useEffect(() => {
-        var sectionArray = about.split("\n");
-        setSectionArray(sectionArray);
-        // let isInSection = false;
-        // let divSectionArray = [];
-        // let tempString = "";
-// 
-        // console.log(sectionArray);
-        // sectionArray.forEach(element => {
-        //     if(element.contains("#")){
-        //         tempString += element;
-        //     }else{
-        //         tempString += "\n" + element;
-        //     }
-        // });
+//     // having different sections based on H1 headings
+//     useEffect(() => {
+//         var sectionArray = about.split("\n");
+//         setSectionArray(sectionArray);
+//         // let isInSection = false;
+//         // let divSectionArray = [];
+//         // let tempString = "";
+// // 
+//         // console.log(sectionArray);
+//         // sectionArray.forEach(element => {
+//         //     if(element.contains("#")){
+//         //         tempString += element;
+//         //     }else{
+//         //         tempString += "\n" + element;
+//         //     }
+//         // });
 
-    }, [about])
+//     }, [about])
 
     return (
        <main className="relative h-screen bg-gray-100">
