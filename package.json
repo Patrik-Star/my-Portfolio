@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",

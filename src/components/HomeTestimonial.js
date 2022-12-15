@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeTestimonialCard from './HomeTestimonialCard';
 import Typical from 'react-typical';
+import personImage from '../images/person.png';
 
 const statementObj ={
     Rob: {
@@ -13,7 +14,7 @@ const statementObj ={
     Diane: {
         title: "A courteous young man",
         body: "Patrik is a courteous young man, always enthusiastic about learning something new and taking on a project with an intense desire to see a successful end result.  He is proactive, diligent and a really nice, honest young man.",
-        image: "https://appworx.nz/images/diane.jpg",
+        image: personImage,
         link: "https://appworx.nz",
         jobPosition: "Head of Sales & Marketing"
     }

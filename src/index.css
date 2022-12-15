@@ -36,11 +36,7 @@ html, body {
 }
 
 .stackIcon{
-  @apply rounded-full h-40 w-auto bg-white m-8 flex items-center p-2
-}
-
-.stackIconGrid{
-    @apply rounded-full h-20 w-auto bg-white flex items-center justify-center p-2
+  @apply rounded-full h-40 w-auto m-8 flex items-center shadow-2xl
 }
 
 /* CSS HEX */

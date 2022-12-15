@@ -46,7 +46,7 @@ function HomeWhatIDo() {
 
                         <div className="grid bg-gray-100 grid-cols-5 gap-5 p-1 md:p-5 "> 
                             <div className="bg-gray-100 p-2 rounded row-span-3 md:row-span-4 col-span-2 flex justify-center ">
-                                <img src={ReachScreenshot} alt="" className="w-full object-contain" />
+                                <img loading='lazy' src={ReachScreenshot} alt="" className="w-full object-contain" />
                             </div>
                             <ToolCard image={swiftLogo} name="swift" />
                             <ToolCard image={xcodeLogo} name="xCode" />
@@ -64,11 +64,11 @@ function HomeWhatIDo() {
                         <h1 className="text-3xl font-bold">UI design</h1>
                         <div className="grid bg-gray-100 grid-cols-4 gap-5 p-1 md:p-5">
                             <div className="bg-gray-200 rounded-xl col-span-3 row-span-2 p-1 ">
-                                <img src={wireframeScreenshot} alt="Patrik's figma wireframe" />
+                                <img loading='lazy' src={wireframeScreenshot} alt="Patrik's figma wireframe" />
                                 {/* <WireframeCarousel /> */}
                             </div>
-                            <div className="rounded"> <img src={figmaScreenshot} alt="figma logo" /></div>
-                            <div className="rounded"><img src={XDScreenshot} alt="adobeXD logo" /></div>
+                            <div className="rounded"> <img loading='lazy' src={figmaScreenshot} alt="figma logo" /></div>
+                            <div className="rounded"><img loading='lazy' src={XDScreenshot} alt="adobeXD logo" /></div>
                              
                             <div className="bg-white p-2 rounded col-span-4">
                                 <p className=" text-left p-2 text-gray-700" style={{whiteSpace: 'pre-line'}}> {paragraphs.uiDesign} </p>

@@ -25,6 +25,10 @@ import TailwindcssLogo from '../images/tailwindcssLogo.png';
 import ToolCardV2 from "./ToolCardV2";
 import TypeScriptLogo from "../images/TypescriptLogo.png";
 // import AWSCDK from "../images/CdkLogo.png";
+// import nodejs
+// import Jira
+// import Docker
+// import Confluence
 
 var stackArray = [
                 'Python',
@@ -46,8 +50,7 @@ var stackArray = [
                 'Javascript',
                 'ReactJS',
                 'Tailwind CSS',
-                'Typescript',
-                'AWS CDK'];
+                'Typescript'];
 
 var imageDict = {
                 'Python': PythonLogo,
@@ -70,6 +73,7 @@ var imageDict = {
                 'ReactJS': ReactLogo,
                 'Tailwind CSS': TailwindcssLogo,
                 'Typescript': TypeScriptLogo};
+
 // var randomSpanArray = ['col-span-2', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1', 'col-span-1'];
 
 // const getUniqueFromRange = (max) => {
@@ -94,17 +98,6 @@ function randomNoRepeats() {
 
 var chooser = randomNoRepeats();
 
-
-// function createElements(n){
-//     var elements = [];
-//     for(let i = 0; i < n; i++){
-//         elements.push(<div className={`bg-white rounded p-4 border-2 border-c-light-blue`}>
-//             {chooser()[0]}
-//         </div>);
-//     }
-//     return elements;
-// }
-
 function createElements(n){
     var elements = [];
     for(let i = 0; i < n; i++){
@@ -126,10 +119,10 @@ function HomeStack() {
         <div className="h-auto flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-200 pb-44"> {/**pb-44 */}
             <h1 className="text-5xl font-bold pt-10">Stack I use</h1>
             <div data-aos="fade-down" className="flex flex-wrap justify-center mt-10">
-                <span><img src={SwiftLogo} alt="Swift Logo" className="stackIcon"/></span>
-                <span><img src={reactLogo} alt="React Logo" className="stackIcon"/></span>
-                <span><img src={PythonLogo} alt=" Python Logo" className="stackIcon"/></span>
-                <span><img src={AWSLogo} alt="AWS Logo" className="stackIcon"/></span>
+                <span><img loading='lazy' src={SwiftLogo} alt="Swift Logo" className="stackIcon"/></span>
+                <span><img loading='lazy' src={reactLogo} alt="React Logo" className="stackIcon"/></span>
+                <span><img loading='lazy' src={PythonLogo} alt=" Python Logo" className="stackIcon"/></span>
+                <span><img loading='lazy' src={AWSLogo} alt="AWS Logo" className="stackIcon"/></span>
             </div>
 
             <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 pb-10 font-mono">

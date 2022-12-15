@@ -14,10 +14,10 @@ export default function NavBar(){
                         Patrik
                     </NavLink>
                     <NavLink 
-                    to="/post" 
+                    to="/playground" 
                     activeClassName="text-white bg-gray-600"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-400 hover:text-yellow-300">
-                        Blog Post
+                        myPlayground
                     </NavLink>
                     <NavLink 
                     to="/project" 

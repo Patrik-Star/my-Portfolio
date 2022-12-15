@@ -15,13 +15,15 @@ function HomeHero() {
                 {/* <h1 className="text-blue-200 text-xl font-bold"></h1> */}
                 <p className='text-blue-200 font-bold text-lg md:text-xl font-mono'>
                     <Typical loop={Infinity} wrapper="b" className=''
-                        steps={['I\'m a Computer science Graduate.🎓🎉', 
+                        steps={['I\'m a UoA Computer science Graduate.🎓🎉', 
                         2000, 
                         'I\'m a software Developer. 💻',
                         2000,
                         'I\'m a iOS app Developer. 📱',
                         2000,
                         'I\'m a Full Stack Developer. ✏️',
+                        2000,
+                        'I\'m a AWS Cloud Engineer. ☁️',
                         2000,
                         'I love to learn new things. 📚',
                         2000,
@@ -43,7 +45,7 @@ function HomeHero() {
 
             {/* right */}
             <div className="md:w-1/3 md:mt-20 md:mr-44">
-                <img src={image} alt="Patrik profile" className="" />
+                <img loading='lazy' src={image} alt="Patrik profile" className="" />
             </div>
 
         </div>

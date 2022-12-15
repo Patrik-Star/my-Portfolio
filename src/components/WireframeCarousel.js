@@ -8,15 +8,15 @@ class WireframeCarousel extends Component {
         return (
             <Carousel infiniteLoop={true} autoPlay={true} interval='4000' showIndicators={true} showThumbs={false} >
                 <div>
-                    <img src={screenshot} alt="" />
+                    <img loading='lazy' src={screenshot} alt="" />
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
-                    <img src={screenshot} alt=""/>
+                    <img loading='lazy' src={screenshot} alt=""/>
                     
                 </div>
                 <div>
-                    <img src={screenshot} alt=""/>
+                    <img loading='lazy' src={screenshot} alt=""/>
                     
                 </div>
             </Carousel>
