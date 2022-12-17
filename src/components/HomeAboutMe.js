@@ -3,6 +3,7 @@ import Typical from 'react-typical';
 import profileImage from '../images/profileFinal.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import HomeAboutMeData from '../content/HomeAboutMe.json'
 
 function HomeAboutMe() {
 
@@ -28,10 +29,8 @@ function HomeAboutMe() {
                 <div data-aos="fade-left" data-aos-duration="2000" className="block md:flex items-center p-4 bg-white rounded-lg shadow-sm w-4/5 md:w-1/2 my-8">
                     <img loading='lazy' src={profileImage} alt="Patrik Profile" className="w-45 rounded-md h-40 " />
                     <div id="body" className="flex flex-col ml-5">
-                        <h4 id="name" className="text-xl font-semibold mb-2">Hi, Nice to meet you, Im Patrik</h4>
-                        <p id="job" className="text-gray-800 mt-2">I just graduated from the University of Auckland in October 2021. 
-                        I have a passion for software development and UI/UX design. I always love learning new things and trying to adapt to new and exciting situations.
-                        </p>
+                        <h4 id="name" className="text-xl font-semibold mb-2">{HomeAboutMeData.title}</h4>
+                        <p id="job" className="text-gray-800 mt-2">{HomeAboutMeData.body}</p>
                     </div>
                 </div>
             </div>

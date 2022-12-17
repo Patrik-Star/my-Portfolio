@@ -8,7 +8,6 @@ export default function Post(){
                 <h1 className="text-5xl flex justify-center text-white font-mono">My Playground</h1> {/*cursive*/}
                 <h2 className="text-lg text-gray-500 flex justify-center mb-12 mt-3 ">welcome to my playground page</h2>
                 
-
             
             </section>
         </main>
