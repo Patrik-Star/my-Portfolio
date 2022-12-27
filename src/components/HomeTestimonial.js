@@ -26,7 +26,7 @@ function HomeTestimonial() {
     for (var key in statementObj) {
         if (statementObj.hasOwnProperty(key)) {
             var obj = statementObj[key]
-            items.push(<HomeTestimonialCard name={key} title={obj.title} body={obj.body} image={obj.image} link={obj.link} jobPosition={obj.jobPosition}/>);
+            items.push(<HomeTestimonialCard key={key} name={key} title={obj.title} body={obj.body} image={obj.image} link={obj.link} jobPosition={obj.jobPosition}/>);
         }
     }
 

@@ -3,7 +3,7 @@ import React from 'react';
 
 function ToolCardV2(props) {
     return (
-        <div className="bg-white rounded-3xl row-span-3 " style={{
+        <div data-aos="fade-down" data-aos-offset={props.aosDelay} className="bg-white rounded-3xl row-span-3 shadow-2xl" style={{
             backgroundImage: `url(${props.image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',

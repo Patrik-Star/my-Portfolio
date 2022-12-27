@@ -1,7 +1,8 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import reactLogo from '../images/reactLogo.png';
+import ToolCardV2 from "./ToolCardV2";
 
 import PythonLogo from '../images/python_bg.png';
 import JavaLogo from '../images/javaLogo.png';
@@ -22,7 +23,6 @@ import CSSLogo from '../images/cssLogo.png';
 import JavascriptLogo from '../images/javascriptLogo.png';
 import ReactLogo from '../images/reactLogo.png';
 import TailwindcssLogo from '../images/tailwindcssLogo.png';
-import ToolCardV2 from "./ToolCardV2";
 import TypeScriptLogo from "../images/TypescriptLogo.png";
 // import AWSCDK from "../images/CdkLogo.png";
 // import nodejs
@@ -98,22 +98,60 @@ function randomNoRepeats() {
 
 var chooser = randomNoRepeats();
 
-function createElements(n){
+function createElements(n, itemsPerRow){
+    const defaultDelay = 120;
+    const delayBetweenItems = 70;
+
+    // Populating array with delay values for each item in the row
+    // let delayArray = [120, 170, 220, 270];
+    let delayArray = []
+    for (let i = 0; i < itemsPerRow; i++) {
+        delayArray.push(defaultDelay + (i*delayBetweenItems));
+    }
+    const lgth = delayArray.length;
+    console.log('delayArray:', delayArray)
+
+    // Populating elements array with actual card objects
     var elements = [];
     for(let i = 0; i < n; i++){
         let pair = chooser()
-        // console.log(pair[0]);
-        elements.push(<ToolCardV2 name={pair[0]} image={pair[1]}/>);
+        let delayItem = delayArray[(i % lgth + lgth) % lgth]
+        elements.push(<ToolCardV2 key={i} name={pair[0]} image={pair[1]} aosDelay={delayItem}/>);
     }
     return elements;
 }
 
 function HomeStack() {
 
+    const [isDesktop, setDesktop] = useState(false); // window.innerWidth > 1024)
+    const [isTablet, setTablet] = useState(false);
+    const [isMobile, setMobile] = useState(false);
+
     useEffect(() => {
         AOS.init();
-
+        updateMedia()
     }, []);
+
+    const updateMedia = () => {
+        // setDesktop(window.innerWidth > 1450);
+        // console.log('isDesktop:', isDesktop);
+        let windowWidth = window.innerWidth
+        if(windowWidth >= 1024){
+            setDesktop(true);
+            console.log('isDesktop')
+        }else if(windowWidth >= 768){
+            setTablet(true);
+            console.log('isTablet')
+        }else{
+            setMobile(true);
+            console.log('isMobile')
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        return () => window.removeEventListener("resize", updateMedia);
+    });
 
     return (
         <div className="h-auto flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-200 pb-44"> {/**pb-44 */}
@@ -134,7 +172,13 @@ function HomeStack() {
             <h1 className="text-5xl font-bold mb-7 mt-5 text-center">Other Tools/Languages</h1>
             
             <div className="container w-full px-5 md:px-0 md:w-2/3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 h-auto"> 
-                {createElements(Object.keys(stackArray).length)}   
+                {/* {createElements(Object.keys(stackArray).length)}    */}
+
+                {/* {isDesktop ? createElements(Object.keys(stackArray).length, 4) : createElements(Object.keys(stackArray).length, 3) } */}
+                {isDesktop && createElements(Object.keys(stackArray).length, 4)}
+                {isTablet && createElements(Object.keys(stackArray).length, 3)}
+                {isMobile && createElements(Object.keys(stackArray).length, 2)}
+
             </div>
 
         </div>

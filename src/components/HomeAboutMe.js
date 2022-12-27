@@ -26,7 +26,7 @@ function HomeAboutMe() {
             </p>
             <div className="h-auto flex flex-col items-center justify-center ">
                 {/* card */}
-                <div data-aos="fade-left" data-aos-duration="2000" className="block md:flex items-center p-4 bg-white rounded-lg shadow-sm w-4/5 md:w-1/2 my-8">
+                <div data-aos="fade-left" data-aos-duration="2000" className="flex items-center p-4 bg-white rounded-lg shadow-sm w-4/5 md:w-1/2 my-8">
                     <img loading='lazy' src={profileImage} alt="Patrik Profile" className="w-45 rounded-md h-40 " />
                     <div id="body" className="flex flex-col ml-5">
                         <h4 id="name" className="text-xl font-semibold mb-2">{HomeAboutMeData.title}</h4>

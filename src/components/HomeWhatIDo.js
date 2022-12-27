@@ -40,8 +40,8 @@ function HomeWhatIDo() {
 
                 <h1 className="text-5xl font-bold text-white py-10">What I Do</h1>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-4 md:px-10 sm:px-0">
-                    <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-3 md:p-8 text-center md:col-span-2 justify-center items-center" > {/** CARD */}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 w-full px-4 lg:px-10">
+                    <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-3 lg:p-8 text-center col-span-1 lg:col-span-2 justify-center items-center" > {/** CARD */}
                         <h1 className="text-3xl font-bold">iPhone iOS Development</h1>
 
                         <div className="grid bg-gray-100 grid-cols-5 gap-5 p-1 md:p-5 "> 
@@ -60,7 +60,7 @@ function HomeWhatIDo() {
                         
                     </div>
 
-                    <div data-aos="fade-left" className="bg-gray-100 rounded-lg p-3 md:p-8 text-center mt-2 md:col-span-2 md:col-start-2">{/** CARD */}
+                    <div data-aos="fade-left" className="bg-gray-100 rounded-lg p-3 lg:p-8 text-center col-span-1 lg:col-span-2 justify-center items-center lg:col-start-2">{/** CARD */}
                         <h1 className="text-3xl font-bold">UI design</h1>
                         <div className="grid bg-gray-100 grid-cols-4 gap-5 p-1 md:p-5">
                             <div className="bg-gray-200 rounded-xl col-span-3 row-span-2 p-1 ">
@@ -76,7 +76,7 @@ function HomeWhatIDo() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-3 md:p-8 text-center md:col-span-2 justify-center items-center">{/** CARD */}
+                    <div data-aos="fade-right" className="bg-gray-100 rounded-lg p-3 lg:p-8 text-center col-span-1 lg:col-span-2 justify-center items-center">{/** CARD */}
                         <h1 className="text-3xl font-bold">Full Stack</h1>
                     </div>
                     

@@ -44,8 +44,8 @@ function HomeHero() {
             </div>
 
             {/* right */}
-            <div className="md:w-1/3 md:mt-20 md:mr-44">
-                <img loading='lazy' src={image} alt="Patrik profile" className="" />
+            <div className="md:w-1/3 md:mt-20 md:mr-44 flex justify-center">
+                <img loading='lazy' src={image} alt="Patrik profile" className="w-3/4 md:w-full" />
             </div>
 
         </div>
