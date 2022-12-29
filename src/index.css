@@ -39,6 +39,31 @@ html, body {
   @apply rounded-full h-40 w-auto m-8 flex items-center shadow-2xl
 }
 
+.showcase {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.showcase video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.title{
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+  font-size: 200px;
+  color: white;
+  mix-blend-mode: multiply;
+  font-weight: bold;
+}
+
 /* CSS HEX */
 /* --marigold: #f0a202ff;
 --raisin-black: #202030ff;
