@@ -1,5 +1,6 @@
 import React from "react";
 import video from '../images/starFields.mp4';
+import Calculator from "./calculator";
 
 export default function Post(){
 
@@ -14,6 +15,11 @@ export default function Post(){
                 <video src={video} autoPlay={true} loop={true} muted={true}></video>
                 <h1 className="title text-center h-54 bg-black">PLAYGROUND</h1>
             </section>
+
+            <br />
+
+            <Calculator />
+
         </main>
     )
 }
