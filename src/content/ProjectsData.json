@@ -54,10 +54,20 @@
         "projectId": 5,
         "title": "DJMIA", 
         "place": "Datacom NZ",
-        "projectType": "AWS",
+        "projectType": "Cloud Development",
         "date": "september 2022",
         "body": "Writing Infrastructre as code in Typescript to use AWS's CDK to deploy resources in AWS such as lambda functions in nodeJS while using Selenium, Deployed using Docker containers.",
         "tags": ["AWS", "AWS CDK", "Typescript", "AWS Architecture", "AWS Lambda", "NodeJs", "DynamoDB", "Selenium", "Docker"],
         "link": "Internal Project"
+    },
+    {
+        "projectId": 6,
+        "title": "IAG - Carbon Ofset", 
+        "place": "Datacom NZ",
+        "projectType": "Full Stack",
+        "date": "Present",
+        "body": "Updating and maintaining frontend code to produce high quality UI designs to be compatible for all screen sizes and browsers.",
+        "tags": ["ReactJS", "TailwindCSS", "Typescript", "Cypress testing", "Jest", "Figma", "Jira", "Teamwork", "Agile"],
+        "link": "https://carbonoffsets.nrma.com.au/climate/"
     }
 ]

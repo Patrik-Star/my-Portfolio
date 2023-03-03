@@ -18,11 +18,11 @@ export default function Project(){
                             <div className="text-gray-500 text-xs">                          
                                 <span>
                                     <strong className="font-bold "> Finished on </strong>:{" "}
-                                    {project.date}{" "}
+                                    {project.date}{" | "}
                                 </span>
                                 <span>
                                     <strong className="font-bold">Place</strong>: {" "}
-                                    {project.place}{" "}
+                                    {project.place}{" | "}
                                 </span>
                                 <span>
                                     <strong className="font-bold">Type</strong>: {" "}
