@@ -62,12 +62,12 @@
     },
     {
         "projectId": 6,
-        "title": "IAG - Carbon Ofset", 
+        "title": "Carbon Ofset", 
         "place": "Datacom NZ",
         "projectType": "Full Stack",
         "date": "Present",
-        "body": "Updating and maintaining frontend code to produce high quality UI designs to be compatible for all screen sizes and browsers.",
-        "tags": ["ReactJS", "TailwindCSS", "Typescript", "Cypress testing", "Jest", "Figma", "Jira", "Teamwork", "Agile"],
+        "body": "Updating and maintaining both frontend and backend code for a web application, producing high quality UI designs and updating our REST API backend to add aditional features. ",
+        "tags": ["ReactJS", "TailwindCSS", "Typescript", "Cypress testing", "Jest", "Figma", "Jira", "Nodejs", "expressjs", "REST API", "DynamoDB", "Teamwork", "Agile"],
         "link": "https://carbonoffsets.nrma.com.au/climate/"
     }
 ]
