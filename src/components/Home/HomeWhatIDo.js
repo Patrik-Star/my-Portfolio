@@ -12,7 +12,7 @@ import swiftLogo from '../../images/swiftLogo.png';
 import postmanLogo from '../../images/postmanLogo.png';
 
 import reactLogo from '../../images/reactLogo.png';
-import typescriptLogo from '../../images/typescriptLogo.png';
+import TypescriptLogo from '../../images/typescriptLogo.png';
 import tailwindcssLogo from '../../images/tailwindcssLogo.png';
 
 import ToolCard from './ToolCard';
@@ -59,7 +59,7 @@ function HomeWhatIDo() {
 
                             <div className="cols-span-1 col-start-1">
                                 <ToolCard image={reactLogo} name="React" className='mb-2'/>
-                                <ToolCard image={typescriptLogo} name="Typescript" className='mb-2' />
+                                <ToolCard image={TypescriptLogo} name="Typescript" className='mb-2' />
                                 <ToolCard image={tailwindcssLogo} name="Tailwindcss" className='mb-2' />
                             </div>
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import reactLogo from '../../images/reactLogo.png';
 import ToolCardV2 from "./ToolCardV2";
 
 import PythonLogo from '../../images/python_bg.png';
@@ -23,7 +22,7 @@ import CSSLogo from '../../images/cssLogo.png';
 import JavascriptLogo from '../../images/javascriptLogo.png';
 import ReactLogo from '../../images/reactLogo.png';
 import TailwindcssLogo from '../../images/tailwindcssLogo.png';
-import typeScriptLogo from '../../images/typescriptLogo.png';
+import TypeScriptLogo from '../../images/typescriptLogo.png';
 // import AWSCDK from "../images/CdkLogo.png";
 // import nodejs
 // import expressJS
@@ -142,7 +141,7 @@ function HomeStack() {
         <div className="h-auto flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-200 pb-44"> {/**pb-44 */}
             <h1 className="text-5xl font-bold pt-10">Stack I use</h1>
             <div data-aos="fade-down" className="flex flex-wrap justify-center mt-10">
-                <span><img loading='lazy' src={reactLogo} alt="React Logo" className="stackIcon" /></span>
+                <span><img loading='lazy' src={ReactLogo} alt="React Logo" className="stackIcon" /></span>
                 <span><img loading='lazy' src={TypeScriptLogo} alt="Typescript Logo" className="stackIcon" /></span>
                 <span><img loading='lazy' src={JavascriptLogo} alt="jJavascript Logo" className="stackIcon" /></span>
                 <span><img loading='lazy' src={AWSLogo} alt="AWS Logo" className="stackIcon" /></span>
