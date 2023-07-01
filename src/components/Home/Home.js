@@ -1,19 +1,11 @@
 import React, {Suspense} from "react";
 
-// import HomeHero from "./HomeHero";
-// import HomeStack from "./HomeStack";
-// import HomeAboutMe from "./HomeAboutMe";
-// import HomeTestimonial from "./HomeTestimonial";
-// import HomeContactMe from "./HomeContactMe";
-// import Footer from "./Footer";
-// import HomeWhatIDo from "./HomeWhatIDo";
-
 const HomeHero = React.lazy(() => import('./HomeHero'));
 const HomeStack = React.lazy(() => import('./HomeStack'));
 const HomeAboutMe = React.lazy(() => import('./HomeAboutMe'));
 const HomeTestimonial = React.lazy(() => import('./HomeTestimonial'));
 const HomeContactMe = React.lazy(() => import('./HomeContactMe'));
-const Footer = React.lazy(() => import('./Footer'));
+const Footer = React.lazy(() => import('../Footer'));
 const HomeWhatIDo = React.lazy(() => import('./HomeWhatIDo'));
 
 export default function Home(){

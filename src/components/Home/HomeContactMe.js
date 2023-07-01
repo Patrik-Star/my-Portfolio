@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
-// import profileImage from '../images/profileFinal.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import myCV from "../CV.pdf";
+import myCV from "../../content/PatrikBolanderCV.pdf";
 import Typical from 'react-typical';
 
 function HomeContactMe() {
@@ -13,7 +12,6 @@ function HomeContactMe() {
 
     return (
         <div className="bg-gray-200 p-10">
-            {/* <h1 className="text-5xl p-5 font-semibold">Contact me</h1> */}
             <h1 className="text-4xl text-c-black mx-10 font-mono text-center md:text-left">
                 <Typical loop={Infinity} wrapper="b"
                         steps={['Lets Work Together...', 

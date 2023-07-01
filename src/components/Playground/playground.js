@@ -1,5 +1,5 @@
 import React from "react";
-import video from '../images/starFields.mp4';
+import video from '../../images/starFields.mp4';
 import Calculator from "./calculator";
 import DynamicCard from "./playground_dynamicCard";
 

@@ -3,7 +3,7 @@ import React from 'react';
 
 function ToolCard(props) {
     return (
-        <div className="bg-white rounded col-span-3 md:col-span-1" style={{
+        <div className={`bg-white rounded col-span-3 md:col-span-1 ${props.className}`} style={{
             backgroundImage: `url(${props.image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',

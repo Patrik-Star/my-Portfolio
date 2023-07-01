@@ -1,6 +1,5 @@
 import React from "react";
-import image from '../images/profileFinal.png';
-// import Typist from "react-typist";
+import image from '../../images/profileFinal.png';
 import Typical from 'react-typical';
 
 function HomeHero() {
@@ -12,7 +11,6 @@ function HomeHero() {
             <div className="md:w-1/2 mb-10 md:mb-0  mx-auto bg-c-black text-center md:text-left mt-10 md:mt-20">
                 <h2 className="text-xl md:text-3xl text-gray-400 mb-6 mt-0 sm:text-5xl font-semibold italic">Hi, I'm</h2>
                 <h2 className="text-5xl md:text-4xl lg:text-6xl text-white mb-6 mt-0 ">Patrik Bolander</h2>
-                {/* <h1 className="text-blue-200 text-xl font-bold"></h1> */}
                 <p className='text-blue-200 font-bold text-lg md:text-xl font-mono'>
                     <Typical loop={Infinity} wrapper="b" className=''
                         steps={['I\'m a UoA Computer science Graduate.🎓🎉', 
