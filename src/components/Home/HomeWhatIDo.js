@@ -2,18 +2,24 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import wireframeScreenshot from '../../images/wireframeScreenshot.png';
-import figmaScreenshot from '../../images/figma.png';
-import XDScreenshot from '../../images/adobeXDLogo.png';
+// import wireframeScreenshot from '../../images/wireframeScreenshot.png';
+// import figmaScreenshot from '../../images/figma.png';
+// import XDScreenshot from '../../images/adobeXDLogo.png';
+
+import reactLogo from '../../images/reactLogo.png';
+import TypescriptLogo from '../../images/typescriptLogo.png';
+import java from '../../images/javaLogo.png';
+import nodejs from '../../images/nodejs.png';
+import springboot from '../../images/springboot.png';
+
+import awsLogo from '../../images/awsLogo.jpg';
+import pythonLogo from '../../images/python_bg.png'
 
 import ReachScreenshot from '../../images/Reach_iPhone11.png';
 import xcodeLogo from '../../images/xcodeLogo.png';
 import swiftLogo from '../../images/swiftLogo.png';
 import postmanLogo from '../../images/postmanLogo.png';
 
-import reactLogo from '../../images/reactLogo.png';
-import TypescriptLogo from '../../images/typescriptLogo.png';
-import tailwindcssLogo from '../../images/tailwindcssLogo.png';
 
 import ToolCard from './ToolCard';
 
@@ -30,9 +36,15 @@ const paragraphs = {
     I then used this knowledge to inform my design desicions for my iOS internship. However, the Reach! app didnt have a complex UI, so it didn't allow me to showcase my UI techniques and knowledge.
     I always love a challenge and always want to find ways to challenge my UI design skills.
     `,
-    fullStack: `During my time at Datacom, ive been able to learn and understand what it takes to be a full stack developer. Learning frontend technologies such as Reactjs with Typescript and tailwindcss, and backend technologies such as Nodejs, Java springboot and a range of database technologies, and being able to incorporate them together into a full fledged web application.
+    fullStack: `When it comes to frontend development, I've had the pleasure of diving into both ReactJS and VueJS. While I appreciate the unique qualities of both frameworks, ReactJS holds a special place in my heart. From creating my portfolio website to working on the exciting "Carbon Offset" project at Datacom, ReactJS has been my go-to choice. I can't help but enjoy the clean syntax and extensive package ecosystem that ReactJS offers. It's like having a powerful set of tools at my fingertips, making the development process a breeze.
+
+    When it comes to web applications, having a solid frontend is crucial, but let's not forget the backbone of it all: the backend API. Throughout my journey, I've dabbled in various technologies and programming languages to create robust backend APIs that support seamless application functionality. From Java with Spring Boot and PostgreSQL for secure data management to Python with AWS Lambdas, API Gateway, and DynamoDB, I've explored diverse tech stacks. In my latest project, I ventured into the world of Node.js, Express.js, and DynamoDB, crafting a powerful backend API that fueled our application's success.
+    `,
+    cloud: `When it comes to cloud development, I've focused on AWS as my platform of choice. I've done a few projects using AWS recomended and in-house framework for developing and deploying infrastructure for the AWS cloud. 
     
-    Ive also been exposed to the range of services AWS has to offer. Deploying infrastructure to AWS by writing Typescript to declare resources such as Lambda Functions, SNS, SQS, DynamoDB Tables, IAM roles, Security groups, and NACL's just to name a few. 
+    In the good old days, deploying an EC2 instance, an S3 bucket, or configuring an API Gateway on AWS meant logging into the management console and clicking away. It was the traditional way, the process could get tedious. And let's not forget about the hassle of writing YAML files to ensure reproducibility and auditability. It was all about the -ables: scalable, maintainable, and auditable. But hey, there's a better, more delightful approach to infrastructure-as-code.
+
+    Alternatively, if you're feeling adventurous, why not dive into the world of infrastructure-as-code using AWS CDK? Say goodbye to those YAML files and embrace the joy of writing infrastructure using TypeScript. It's surprisingly satisfying and straightforward. With CDK, you get the benefit of reasonable default values for all your deployed resources, saving you from the overwhelming task of remembering countless parameters. Of course, you have the freedom to customize as needed, but it's refreshing to have a solid starting point. Let CDK handle the complexity while you enjoy the seamless process of deploying infrastructure to the cloud.
     `
 }
 
@@ -58,18 +70,38 @@ function HomeWhatIDo() {
                         <div className="grid bg-gray-100 grid-cols-5 ">
 
                             <div className="cols-span-1 col-start-1">
-                                <ToolCard image={reactLogo} name="React" className='mb-2'/>
+                                <ToolCard image={reactLogo} name="React" className='mb-2' />
                                 <ToolCard image={TypescriptLogo} name="Typescript" className='mb-2' />
-                                <ToolCard image={tailwindcssLogo} name="Tailwindcss" className='mb-2' />
+                                <ToolCard image={nodejs} name="Nodejs" className='mb-2' />
+                                <ToolCard image={java} name="java" className='mb-2' />
+                                <ToolCard image={springboot} name="springboot" className='mb-2' />
                             </div>
 
-                            <div className="bg-white p-2 rounded col-start-2 col-span-4">
+                            <div className="bg-white p-2 ml-2 rounded col-start-2 col-span-4">
                                 <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.fullStack}</p>
                             </div>
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" className={`${cardCSS} lg:col-start-2`} > {/** CARD */}
+                    <div data-aos="fade-left" className={`${cardCSS} lg:col-start-2`}>{/** CARD */}
+                        <h1 className="text-3xl font-bold">Cloud Development</h1>
+                        <div className="grid bg-gray-100 grid-cols-5 ">
+
+                            <div className="cols-span-1 col-start-1">
+                                <ToolCard image={awsLogo} name="AWS" className='mb-2' />
+                                <ToolCard image={TypescriptLogo} name="Typescript" className='mb-2' />
+                                <ToolCard image={nodejs} name="Nodejs" className='mb-2' />
+                                <ToolCard image={pythonLogo} name="Python" className='mb-2' />
+                                
+                            </div>
+
+                            <div className="bg-white p-2 ml-2 rounded col-start-2 col-span-4">
+                                <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.cloud}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-right" className={`${cardCSS}`} > {/** CARD */}
                         <h1 className="text-3xl font-bold">iPhone iOS Development</h1>
 
                         <div className="grid bg-gray-100 grid-cols-5 gap-5 p-1 md:p-5 ">
@@ -87,20 +119,6 @@ function HomeWhatIDo() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-right" className={cardCSS}>{/** CARD */}
-                        <h1 className="text-3xl font-bold">UI design</h1>
-                        <div className="grid bg-gray-100 grid-cols-4 gap-5 p-1 md:p-5">
-                            <div className="bg-gray-200 rounded-xl col-span-3 row-span-2 p-1 ">
-                                <img loading='lazy' src={wireframeScreenshot} alt="Patrik's figma wireframe" />
-                            </div>
-                            <div className="rounded"> <img loading='lazy' src={figmaScreenshot} alt="figma logo" /></div>
-                            <div className="rounded"><img loading='lazy' src={XDScreenshot} alt="adobeXD logo" /></div>
-
-                            <div className="bg-white p-2 rounded col-span-4">
-                                <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.uiDesign} </p>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
@@ -110,3 +128,20 @@ function HomeWhatIDo() {
 }
 
 export default HomeWhatIDo;
+
+
+// UI design card
+/* <div data-aos="fade-right" className={`${cardCSS}`}>
+    <h1 className="text-3xl font-bold">UI design</h1>
+    <div className="grid bg-gray-100 grid-cols-4 gap-5 p-1 md:p-5">
+        <div className="bg-gray-200 rounded-xl col-span-3 row-span-2 p-1 ">
+            <img loading='lazy' src={wireframeScreenshot} alt="Patrik's figma wireframe" />
+        </div>
+        <div className="rounded"> <img loading='lazy' src={figmaScreenshot} alt="figma logo" /></div>
+        <div className="rounded"><img loading='lazy' src={XDScreenshot} alt="adobeXD logo" /></div>
+
+        <div className="bg-white p-2 rounded col-span-4">
+            <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.uiDesign} </p>
+        </div>
+    </div>
+</div> */
