@@ -10,7 +10,7 @@ function ToolCard(props) {
             backgroundRepeat: 'no-repeat'
             }}>
             <div className="w-full h-full bg-gradient-to-t from-gray-700 to-transparent align-bottom flex flex-wrap justify-center content-end rounded p-10 ">
-                <h2 className=" text-2xl text-white -mb-10 "> {props.name}</h2>
+                <h2 className=" text-lg md:text-2xl text-white -mb-10 "> {props.name}</h2>
             </div>
         </div>
     )

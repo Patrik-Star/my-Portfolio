@@ -78,7 +78,7 @@ function HomeWhatIDo() {
                             </div>
 
                             <div className="bg-white p-2 ml-2 rounded col-start-2 col-span-4">
-                                <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.fullStack}</p>
+                                <p className=" text-left p-2 text-gray-700 text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}> {paragraphs.fullStack}</p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ function HomeWhatIDo() {
                             </div>
 
                             <div className="bg-white p-2 ml-2 rounded col-start-2 col-span-4">
-                                <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.cloud}</p>
+                                <p className=" text-left p-2 text-gray-700 text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}> {paragraphs.cloud}</p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ function HomeWhatIDo() {
                             <ToolCard image={postmanLogo} name="Postman" />
 
                             <div className="bg-white p-2 rounded col-span-5 md:col-span-3 row-span-3">
-                                <p className=" text-left p-2 text-gray-700" style={{ whiteSpace: 'pre-line' }}> {paragraphs.ios}</p>
+                                <p className=" text-left p-2 text-gray-700 text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}> {paragraphs.ios}</p>
                             </div>
 
                         </div>
