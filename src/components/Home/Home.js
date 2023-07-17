@@ -1,4 +1,4 @@
-import React, {Suspense} from "react";
+import React, {Suspense, useEffect, useRef} from "react";
 
 const HomeHero = React.lazy(() => import('./HomeHero'));
 const HomeStack = React.lazy(() => import('./HomeStack'));
@@ -9,9 +9,14 @@ const Footer = React.lazy(() => import('../Footer'));
 const HomeWhatIDo = React.lazy(() => import('./HomeWhatIDo'));
 
 export default function Home(){
+
+    const myRef = useRef(null)
+    useEffect(() => {
+        myRef.current.focus();
+    }, [])
     
     return (
-        <div className="">
+        <div className="" ref={myRef}>
             
             <Suspense fallback={<span>Loading...</span>}>
                 <HomeHero />

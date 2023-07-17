@@ -23,9 +23,9 @@ export default function About() {
             </div>
 
             <AboutSection
-                subtitle = "high school"
-                main = "My spark for ICT"
-                body = "Went to Rangitoto college from years 9-13. ">
+                subtitle="high school"
+                main="My spark for ICT"
+                body="Went to Rangitoto college from years 9-13. ">
                 <AboutTimelineCard
                     date="years 10-13"
                     title="ICT"
@@ -35,28 +35,110 @@ export default function About() {
                 <AboutTimelineCard
                     date="years 10-13"
                     title="Programming"
-                    body="Where I learnt Python for the first time! learning the basics such as arrays, functions, classes and Objected Oriented Programming (OOP)."
+                    body="Believe it or not, my high school had 2 seperate IT related classes. Where ICT was only around html, css and website design, Programming was about Python and algorithms. This is where I learnt Python for the first time! learning the basics such as arrays, functions, classes and Objected Oriented Programming (OOP)."
                     side="right"
                 />
-                
+
             </AboutSection>
 
             <AboutSection
-                subtitle = "Auckland University"
-                main = "Time to get a degree"
-                body = "Went to the univerity of Auckland, studying towards a bachalors of Computer Science.">
+                subtitle="Auckland University"
+                main="Time to get a degree"
+                body="Went to the univerity of Auckland, studying towards a bachalors of Computer Science.">
+                <AboutTimelineCard
+                    date="1st year"
+                    title="Compsci 101"
+                    body=""
+                    side="left"
+                />
+
+                <AboutTimelineCard
+                    date="2nd year"
+                    title="Lots of Theory!"
+                    body=""
+                    side="right"
+                />
+
+                <AboutTimelineCard
+                    date="3rd year"
+                    title="branching out to infosys"
+                    body=""
+                    side="left"
+                />
             </AboutSection>
 
             <AboutSection
-                subtitle = "Internship at Appworx"
-                main = "My first job"
-                body = "Finally! my first software devlopement job.">
+                subtitle="Internship at Appworx"
+                main="My first job"
+                body="Finally! my first software devlopement job.">
+                <AboutTimelineCard
+                    date="2019"
+                    title="Swift time!"
+                    body=""
+                    side="right"
+                />
+
+                <AboutTimelineCard
+                    date="2019"
+                    title="UI critical thinking"
+                    body=""
+                    side="left"
+                />
+
+                <AboutTimelineCard
+                    date="2019"
+                    title="Push notifications"
+                    body=""
+                    side="right"
+                />
+                <AboutTimelineCard
+                    date="2019"
+                    title="The apple way"
+                    body=""
+                    side="left"
+                />
+                <AboutTimelineCard
+                    date="2019"
+                    title="making this website"
+                    body=""
+                    side="right"
+                />
             </AboutSection>
 
             <AboutSection
-                subtitle = "Datacom"
-                main = "Time to learn everything!"
-                body = "welcome to being a software developer in the largest software development company in New Zealand.">
+                subtitle="Datacom"
+                main="Time to learn everything!"
+                body="welcome to being a software developer in the largest software development company in New Zealand.">
+                <AboutTimelineCard
+                    date="2021"
+                    title="Oribit aws cdk"
+                    body=""
+                    side="left"
+                />
+                <AboutTimelineCard
+                    date="2021"
+                    title="being on the bench"
+                    body=""
+                    side="right"
+                />
+                <AboutTimelineCard
+                    date="2021"
+                    title="Wise"
+                    body=""
+                    side="left"
+                />
+                <AboutTimelineCard
+                    date="2021"
+                    title="DJMIA"
+                    body=""
+                    side="right"
+                />
+                <AboutTimelineCard
+                    date="2021"
+                    title="going to IAG - carbon offset"
+                    body=""
+                    side="left"
+                />
             </AboutSection>
 
         </main>

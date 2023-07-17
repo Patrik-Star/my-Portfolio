@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^9.8.6",

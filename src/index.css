@@ -38,10 +38,6 @@ body {
 
 }
 
-.stackIcon {
-  @apply rounded-full h-32 md:h-40 w-auto m-8 flex items-center shadow-2xl
-}
-
 .showcase {
   width: 100%;
   height: auto;

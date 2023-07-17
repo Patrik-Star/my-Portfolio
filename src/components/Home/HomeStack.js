@@ -138,14 +138,15 @@ function HomeStack() {
         return () => window.removeEventListener("resize", updateMedia);
     });
 
+    const stackIconClassName = "rounded-full h-32 md:h-40 w-auto m-8 flex items-center shadow-2xl";
     return (
         <div className="h-auto flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-200 pb-44"> {/**pb-44 */}
             <h1 className="text-5xl font-bold pt-10">Stack I use</h1>
             <div data-aos="fade-down" className="flex flex-wrap justify-center mt-10">
-                <span><img loading='lazy' src={ReactLogo} alt="React Logo" className="stackIcon" /></span>
-                <span><img loading='lazy' src={TypeScriptLogo} alt="Typescript Logo" className="stackIcon" /></span>
-                <span><img loading='lazy' src={JavascriptLogo} alt="jJavascript Logo" className="stackIcon" /></span>
-                <span><img loading='lazy' src={AWSLogo} alt="AWS Logo" className="stackIcon" /></span>
+                <span><img loading='lazy' src={ReactLogo} alt="React Logo" className={stackIconClassName} /></span>
+                <span><img loading='lazy' src={TypeScriptLogo} alt="Typescript Logo" className={stackIconClassName} /></span>
+                <span><img loading='lazy' src={JavascriptLogo} alt="jJavascript Logo" className={stackIconClassName} /></span>
+                <span><img loading='lazy' src={AWSLogo} alt="AWS Logo" className={stackIconClassName} /></span>
             </div>
 
             <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 pb-10 font-mono">
