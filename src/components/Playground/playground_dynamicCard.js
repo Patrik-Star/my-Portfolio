@@ -39,26 +39,26 @@ export default function DynamicCard() {
     <div>
       <div className="flex overflow-x-scroll overflow-auto w-full">
        
-      <div className="block flex-nowrap w-80 h-auto bg-green-400 p-3 rounded-lg mx-5" style={{ width: `${width}px`, height: `${height}px`, backgroundColor: color, border: `${borderSize}px ${borderColor} ${border}`}} > 
-        <h2 className="font-bold text-white"> Customizable me! </h2>
+      <div className="block flex-nowrap w-80 h-auto bg-green-400 p-3 rounded-lg mx-5 text-white font-bold" style={{ width: `${width}px`, height: `${height}px`, backgroundColor: color, border: `${borderSize}px ${borderColor} ${border}`}} > 
+        <p className={color !== '' ? 'mix-blend-difference' : ''}> Customizable me! </p>
                                                                                              
         <div className="flex font-bold text-white my-1"> 
-          <p> Width: </p> 
-          <input type='range' onChange={changeWidth} min={280} max={800} step={1} value={width} className="ml-2"></input>
+          <p className={color !== '' ? 'mix-blend-difference' : ''}>  Width: </p> 
+          <input type='range' onChange={changeWidth} min={280} max={600} step={1} value={width} className="ml-2"></input>
         </div>
         
         <div className="flex font-bold text-white my-1">
-          <p> Height: </p> 
+          <p className={color !== '' ? 'mix-blend-difference' : ''}>  Height: </p> 
           <input type='range' onChange={changeHeight} min={230} max={400} step={1} value={height} className="ml-2"></input>
         </div>
          
         <div className="flex font-bold text-white my-1">
-          <p> Color: </p> 
+          <p className={color !== '' ? 'mix-blend-difference' : ''}>  Color: </p> 
           <input type="color" value={color} onChange={changeColor} className="ml-2"/>
         </div>
         
         <div className="flex font-bold text-white my-1">
-          <p> Border: </p> 
+          <p className={color !== '' ? 'mix-blend-difference' : ''}>  Border: </p> 
           <form onChange={changeBorder} className="ml-2 text-black">
             <select id="cars" name="cars">
               <option value="solid">solid</option>
@@ -71,12 +71,12 @@ export default function DynamicCard() {
         </div>
         
         <div className="flex font-bold text-white mt-1">
-          <p> Border Size: </p> 
+          <p className={color !== '' ? 'mix-blend-difference' : ''}>  Border Size: </p> 
           <input type='range' onChange={changeBorderSize} min={2} max={10} step={1} value={borderSize} className="ml-2"></input>
         </div>
         
         <div className="flex font-bold text-white my-1">
-          <p> Border Color: </p> 
+          <p className={color !== '' ? 'mix-blend-difference' : ''}> Border Color: </p> 
           <input type="color" value={color} onChange={changeBorderColor} className="ml-2"/>
         </div>
         
