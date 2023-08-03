@@ -51,7 +51,7 @@ function Calculator() {
 
     return (
         <div className="App bg-gray-400 text-center flex justify-center h-screen w-full md:w-1/3 rounded-2xl mr-5 mb-5">
-            <div className="w-full h-full grid grid-cols-4 grid-rows-6 gap-3 py-10 px-10">
+            <div className="w-full h-full grid grid-cols-4 grid-rows-6 gap-3 py-10 px-4 md:px-10">
                 <div className={`${buttonStyling} col-span-4 align-middle content-center`}>{view}</div>
                 <button className={`md:text-sm ${buttonStyling}`} onClick={() => setView('')}>Clear</button>
                 <button className={buttonStyling} onClick={() => addToView('-')}>+-</button>
