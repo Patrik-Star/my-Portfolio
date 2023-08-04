@@ -158,7 +158,7 @@ function HomeStack() {
 
             <h1 className="text-5xl font-bold mb-7 mt-5 text-center">Other Tools/Languages</h1>
 
-            <div className="container w-full px-5 h-auto grid grid-cols-4 gap-4 md:px-0 md:w-2/3 md:grid-cols-3 md:gap-8 lg:grid-cols-4 ">
+            <div className="container w-full px-5 h-auto grid grid-cols-4 gap-3 md:px-0 md:w-2/3 md:grid-cols-3 md:gap-4 lg:grid-cols-4 ">
                 {isDesktop && createElements(Object.keys(stackArray).length, 4)}
                 {isTablet && createElements(Object.keys(stackArray).length, 3)}
                 {isMobile && createElements(Object.keys(stackArray).length, 4)}

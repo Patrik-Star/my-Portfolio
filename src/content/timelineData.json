@@ -87,17 +87,17 @@
             {
                 "date": "2021",
                 "title": "Orbit AWS CDK",
-                "body": ""
+                "body": "This was my first project at Datacom. It Got me to learn AWS more indepth, by writing Typescript and using the AWS CDK framework, I was able to write Infrastructure-as-code and deploy AWS services to the AWS cloud. This was my first introduction to the AWS cloud and I thoroughly enjoyed working with the cloud."
             },
             {
                 "date": "2021",
                 "title": "Wise",
-                "body": ""
+                "body": "This was one of my most challenging projects that iv undertaken here at Datacom. It was full stack development with Java and Vue JS. I have definitly learnt a lot of valuable lessons and skills that I will take with my for the rest of my life. Skills such as resilience, communication, teamwork and perseverance."
             },
             {
                 "date": "2021",
                 "title": "DJMIA",
-                "body": ""
+                "body": "This was an internal project within Datacom. I was tasked to set up a business intelligence tool and deploying it to the AWS cloud using the AWS CDK framework to deploy infrastructure-as-code. As time went one, I took more ownership of the project as felow developer left the project and I was tasked to update and maintain the solution."
             },
             {
                 "date": "2021",
