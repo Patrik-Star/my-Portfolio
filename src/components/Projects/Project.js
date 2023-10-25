@@ -2,7 +2,7 @@ import React from 'react';
 import projectData from '../../content/ProjectsData.json';
 
 export default function Project(){
-
+    // For Datacom custom border - ${project.place.includes("Datacom") ? "rounded-3xl border-8 border-c-datacom-blue border-double ": ""}
     return(
         <main className="min-h-screen p-12 bg-gradient-to-b from-c-black to-gray-700">
             <section className="container mx-auto ">
@@ -11,7 +11,7 @@ export default function Project(){
                 <section className="grid md:grid-cols-2 gap-8 sm:grid-cols-1">
 
                     {projectData && projectData.map((project, index) => (
-                        <article className={`relative rounded-2xl shadow-xl bg-white p-7 ${project.place.includes("Datacom") ? "rounded-3xl border-8 border-c-datacom-blue border-double ": ""}`}>
+                        <article className={`relative rounded-2xl shadow-xl bg-white p-7 `}>
                             <h3 className="text-gray-800 text-3xl fond-bold mb-2 hover:text-red-700">
                                 <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer">{project.title}</a>
                             </h3>
