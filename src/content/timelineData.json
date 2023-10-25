@@ -70,7 +70,7 @@
                 "body": "The one problem with developing an application for the iPhone, is that you must comply and follow Apples guidlines if you want to publish to the Apple App store. If you were to look at Googles Play store, its generally less locked down as to who or what you can publish. But despite this possible hurdle of having to heavly modify our app, we didnt face any issues with Apple or the process to upload our app to the app store."
             },
             {
-                "date": "2020",
+                "date": "2021",
                 "title": "Making this website",
                 "body": "As my time was coming to an end at Appworx, As no more development was needed for the app I was working on, I decided I needed a portfolio website to document and cataloge my work experience to where potentual employers would be able to view my set of skills and pervious work history in a more dynamic and interesting way than just a PDF of my CV. So once having a quick look at the top js frameworks at the time, I settled on ReactJS. For my CSS framework, I found TailwindCSS which I really thorologhy enjoyed learning and is now my favourite and go to css framework."
             }
@@ -90,17 +90,17 @@
                 "body": "This was my first project at Datacom. It Got me to learn AWS more indepth, by writing Typescript and using the AWS CDK framework, I was able to write Infrastructure-as-code and deploy AWS services to the AWS cloud. This was my first introduction to the AWS cloud and I thoroughly enjoyed working with the cloud."
             },
             {
-                "date": "2021",
+                "date": "2022",
                 "title": "Wise",
                 "body": "This was one of my most challenging projects that iv undertaken here at Datacom. It was full stack development with Java and Vue JS. I have definitly learnt a lot of valuable lessons and skills that I will take with my for the rest of my life. Skills such as resilience, communication, teamwork and perseverance."
             },
             {
-                "date": "2021",
+                "date": "2022",
                 "title": "DJMIA",
                 "body": "This was an internal project within Datacom. I was tasked to set up a business intelligence tool and deploying it to the AWS cloud using the AWS CDK framework to deploy infrastructure-as-code. As time went one, I took more ownership of the project as felow developer left the project and I was tasked to update and maintain the solution."
             },
             {
-                "date": "2021",
+                "date": "2023",
                 "title": "Carbon Offset",
                 "body": ""
             }
