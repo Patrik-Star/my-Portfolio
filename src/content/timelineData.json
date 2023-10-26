@@ -92,17 +92,17 @@
             {
                 "date": "2022",
                 "title": "Wise",
-                "body": "This was one of my most challenging projects that iv undertaken here at Datacom. It was full stack development with Java and Vue JS. I have definitly learnt a lot of valuable lessons and skills that I will take with my for the rest of my life. Skills such as resilience, communication, teamwork and perseverance."
+                "body": "This was one of my most challenging projects that I've undertaken here at Datacom. It was full stack development with Java and Vue JS. I have definitly learnt a lot of valuable lessons and skills that I will take with my for the rest of my life. Skills such as resilience, communication, teamwork and perseverance."
             },
             {
                 "date": "2022",
                 "title": "DJMIA",
-                "body": "This was an internal project within Datacom. I was tasked to set up a business intelligence tool and deploying it to the AWS cloud using the AWS CDK framework to deploy infrastructure-as-code. As time went one, I took more ownership of the project as felow developer left the project and I was tasked to update and maintain the solution."
+                "body": "This was an internal project within Datacom. I was tasked to set up a business intelligence tool and deploying it to the AWS cloud using the AWS CDK framework to deploy infrastructure-as-code. As time went on, I took more ownership of the project as fellow developers left the project and I was tasked to update and maintain the application."
             },
             {
                 "date": "2023",
                 "title": "Carbon Offset",
-                "body": ""
+                "body": "I thoroughly enjoyed this project! I had a great time in developing a full stack web application with a well oiled agile team. I had the privilage of having access to senior developers that taught me best coding practices and to improve the quality of my code."
             }
         ]
     }
