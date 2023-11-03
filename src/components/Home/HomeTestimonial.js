@@ -20,8 +20,8 @@ function HomeTestimonial() {
                         ]} />
             </h1>
             <div className="w-full overflow-x-auto">
-                <div className="inline-flex overflow-x-scroll flex-nowrap space-x-10 py-20">
-                    {testimonialArray && newTestimonialArray.map((el, index) => (
+                <div className="inline-flex overflow-x-scroll flex-nowrap space-x-10 py-20 pr-10">
+                    {newTestimonialArray && newTestimonialArray.map((el, index) => (
                         <HomeTestimonialCard index={index} name={el.Name} title={el.title} body={el.body} image={el.image} link={el.link} jobPosition={el.jobPosition}/>
                     ))}
                 </div>
