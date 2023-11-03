@@ -5,6 +5,9 @@ import testimonialArray from '../../content/testimonialData'
 
 
 function HomeTestimonial() {
+
+    const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
+    const newTestimonialArray = shuffle(testimonialArray);
     
     return (
         <div className="w-full bg-c-black pt-10 sm:justify-center">
@@ -16,9 +19,9 @@ function HomeTestimonial() {
                         100
                         ]} />
             </h1>
-            <div className="w-full overflow-x-scroll">
+            <div className="w-full overflow-x-auto">
                 <div className="inline-flex overflow-x-scroll flex-nowrap space-x-10 py-20">
-                    {testimonialArray && testimonialArray.map((el, index) => (
+                    {testimonialArray && newTestimonialArray.map((el, index) => (
                         <HomeTestimonialCard index={index} name={el.Name} title={el.title} body={el.body} image={el.image} link={el.link} jobPosition={el.jobPosition}/>
                     ))}
                 </div>

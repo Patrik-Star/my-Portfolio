@@ -55,7 +55,7 @@
         "title": "DJMIA", 
         "place": "Datacom NZ",
         "projectType": "Cloud Development",
-        "date": "september 2022",
+        "date": "September 2022",
         "body": "Writing Infrastructre as code in Typescript to use AWS's CDK to deploy resources in AWS such as lambda functions in nodeJS while using Selenium, Deployed using Docker containers.",
         "tags": ["AWS", "AWS CDK", "Typescript", "AWS Architecture", "AWS Lambda", "NodeJs", "DynamoDB", "Selenium", "Docker"],
         "link": "Internal Project"
@@ -65,7 +65,7 @@
         "title": "Carbon Ofset", 
         "place": "Datacom NZ",
         "projectType": "Full Stack",
-        "date": "Present",
+        "date": "November 2023",
         "body": "Updating and maintaining both frontend and backend code for a web application, producing high quality UI designs and updating our REST API backend to add aditional features. ",
         "tags": ["ReactJS", "TailwindCSS", "Typescript", "Cypress testing", "Jest", "Figma", "Jira", "Nodejs", "expressjs", "REST API", "DynamoDB", "Git", "GitHub","Teamwork", "Agile"],
         "link": "https://carbonoffsets.nrma.com.au/climate/"

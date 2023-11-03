@@ -1,8 +1,7 @@
 import React from "react";
-// import video from '../../images/starFields.mp4';
 import Calculator from "./calculator";
-import DynamicCard from "./playground_dynamicCard";
-import Animation from "./animation";
+// import DynamicCard from "./playground_dynamicCard";
+// import Animation from "./animation";
 
 export default function Post() {
 
@@ -14,19 +13,14 @@ export default function Post() {
                 <h2 className="text-lg text-gray-500 flex justify-center mb-12 ">This is my showcase of cool Reactjs Components</h2>
             </section>
 
-            {/* <section className="showcase w-full">
-                <video src={video} autoPlay={true} loop={true} muted={true}></video>
-                <h1 className="title text-center h-54 bg-black">PLAYGROUND</h1>
-            </section> */}
-
             <br />
             <div className="block md:flex mx-1 md:mx-5 ">
                 <Calculator />
-                <DynamicCard />
+                {/* <DynamicCard /> */}
             </div>
-            <div className="w-full flex flex-row justify-between">
+            {/* <div className="w-full flex flex-row justify-between">
                 <Animation />
-            </div>
+            </div> */}
         </main>
     )
 }

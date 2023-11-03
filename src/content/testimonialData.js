@@ -16,6 +16,70 @@ const TestimonialArray = [
         image: personImage,
         link: "https://appworx.nz",
         jobPosition: "Head of Sales & Marketing"
+    },
+    {
+        Name: "Darwin",
+        title: "Great work ethic",
+        body: "Thanks for being part of the team and we all appreciate your work. I know how awesome you are at what you do. Great work ethic and super cool workplace attitude.",
+        image: personImage,
+        link: "",
+        jobPosition: "Full Stack Developer"
+    },
+    {
+        Name: "Joelene",
+        title: "It's been a pleasure working with you!",
+        body: "You've brought in such a bright and positive energy and your coding skills are beyond your years of experience. It's been incredible to witness your talent and passion on our Carbon Offset work. Your dedication, problem-solving skills and enthusiasm for coding have not only inspired me but have made our project truly remarkable with the consistent 100% sprint completion.",
+        image: personImage,
+        link: "",
+        jobPosition: "Specialist Developer"
+    },
+    {
+        Name: "Sarah",
+        title: "It's been so good having you on the team.",
+        body: "Thanks for all your great work and also just for being an all round nice guy. You've been a great addition to the team and helped make work a fun place to be.",
+        image: personImage,
+        link: "",
+        jobPosition: "Digital Product Owner"
+    },
+    {
+        Name: "Shay",
+        title: "You've been an absolute star to work with!",
+        body: "Love all the energy and good vibes you bring to the team which will be missed! I'm sure wherever you go, you'll do absolutely amazing!!",
+        image: personImage,
+        link: "",
+        jobPosition: "Business Analyst"
+    },
+    {
+        Name: "Raymond",
+        title: "Jack of all trades!",
+        body: "Our all in one team member. It has been awesome working with you. Surely you would succeed on anywhere you go. Keep in touch and all the best for your next adventure.",
+        image: personImage,
+        link: "",
+        jobPosition: "Techical Lead"
+    },
+    {
+        Name: "Rogin",
+        title: "You are such an amazing person with an awesome friendly personality",
+        body: "It was so nice to know you and work with you. You are such an amazing person with an awesome friendly personality and surely a Jack of all trades! You made a huge impact on the spirit of our team and being the best buddy with such a positive attitude. I wish you all the very best and I am sure that you will do wonders with any team you will join.",
+        image: personImage,
+        link: "",
+        jobPosition: "Business Analyst Lead / Product Ownder"
+    },
+    {
+        Name: "Tahir",
+        title: "It's rare to see someone so young and talented",
+        body: "It's rare to see someone so young and talented, but also with such a strong work ethic and positive attitude to go with it. You've got all the 'soft' skills to really push yourself to the next level and no doubt in the future, take your career wherever you wish to take it.",
+        image: personImage,
+        link: "",
+        jobPosition: "BA Practice Manager"
+    },
+    {
+        Name: "Cyrus",
+        title: "You have always been such a great addition to our team!",
+        body: "You have always been such a great addition to our team! We can always trust handing over the work to you and keeping the sprint completion rate to 100%. ",
+        image: personImage,
+        link: "",
+        jobPosition: "Senior Full Stack Engineer"
     }
 ]
 

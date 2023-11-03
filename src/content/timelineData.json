@@ -27,7 +27,7 @@
         "cards": [
             {
                 "date": "1st year",
-                "title": "compsci",
+                "title": "Compsci",
                 "body": "I was just trying to get used to Uni life. Attending my classes and learning the foundations in computer science such as Python, Java, and data structures"
             },
             {
@@ -37,7 +37,7 @@
             },
             {
                 "date": "3rd year",
-                "title": "branching out to infosys",
+                "title": "Branching out to infosys",
                 "body": "During my third year, I took a lot of Infomation system papers to unerstand the other parts to computer science. This included topics such as Enterprise platforms and learning to be a Business analysis"
             }
         ]
@@ -80,7 +80,7 @@
     {
         "subtitle": "Datacom",
         "main": "Time to learn everything!",
-        "body": "welcome to being a software developer in the largest software development company in New Zealand.",
+        "body": "Welcome to being a software developer in the largest software development company in New Zealand.",
         "button": "",
         "href": "",
         "cards": [
