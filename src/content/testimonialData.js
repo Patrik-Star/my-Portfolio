@@ -63,7 +63,7 @@ const TestimonialArray = [
         body: "It was so nice to know you and work with you. You are such an amazing person with an awesome friendly personality and surely a Jack of all trades! You made a huge impact on the spirit of our team and being the best buddy with such a positive attitude. I wish you all the very best and I am sure that you will do wonders with any team you will join.",
         image: "https://media.licdn.com/dms/image/C4E03AQGEMsiCbE_ndA/profile-displayphoto-shrink_400_400/0/1516440897782?e=1704326400&v=beta&t=0NiUKP7s3-b1K1EH9Z9A09i4tkRkf8c3WTr4_pd4NiY",
         link: "https://www.linkedin.com/in/roginthadathil/",
-        jobPosition: "Business Analyst Lead / Product Ownder"
+        jobPosition: "Business Analyst Lead / Product Owner"
     },
     {
         Name: "Tahir",
