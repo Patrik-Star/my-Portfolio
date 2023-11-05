@@ -1,29 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import personImage from '../../images/person.png';
+import { useEffect } from 'react';
 
 function HomeTestimonialCard({ image, name, title, body, link, jobPosition, index }) {
 
-    function checkIfImageExists(url, callback) {
-        const img = new Image();
-        img.src = url;
-        
-        if (img.complete) {
-          return true;
-        } else {
-          img.onload = () => {
-            return true;
-          };
-          
-          img.onerror = () => {
-            return false;
-          };
+    const [finalImage, setFinalImage] = useState(image);
+
+    useEffect(() => {
+        if (typeof finalImage === 'string' || finalImage instanceof String) {
+            fetch(finalImage)
+                .then(response => {
+                    if (!response.ok) setFinalImage(personImage); 
+                })
+                .catch(error => {
+                    setFinalImage(personImage);
+                });
         }
-      }
+    }, [finalImage])
 
     return (
         <div className={`relative max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-2 h-auto w-96 ${index === 0 ? "ml-10" : ""}`}>
             <div className="flex justify-center md:justify-end -mt-16 ">
-                <img className="w-20 h-20 object-cover rounded-full border-2 border-indigo-500 bg-white" alt={name} src={checkIfImageExists(image) ? image : personImage}/>
+                <img className="w-20 h-20 object-cover rounded-full border-2 border-indigo-500 bg-white" alt={name} src={finalImage} />
             </div>
             <div className='pb-10'>
                 <h2 className="text-gray-800 text-2xl font-semibold">{title}</h2>
